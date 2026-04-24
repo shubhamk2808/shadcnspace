@@ -1029,7 +1029,7 @@
       ]
     },
     {
-      "name": "dialog-01",
+      "name": "dialog-block-01",
       "title": "Dialog 01 - Newsletter Subscription Dialog",
       "description": "A modern modal popup for capturing newsletter signups with a friendly hero image, email field, opt-out checkbox, and clear call-to-action to boost conversions.",
       "type": "registry:block",
@@ -1045,14 +1045,14 @@
       ],
       "files": [
         {
-          "path": "src/components/shadcn-space/blocks/dialog-01/page.tsx",
+          "path": "src/components/shadcn-space/blocks/dialog-block-01/page.tsx",
           "type": "registry:page",
-          "target": "app/dialog-01/page.tsx"
+          "target": "app/dialog-block-01/page.tsx"
         },
         {
-          "path": "src/components/shadcn-space/blocks/dialog-01/dialog.tsx",
+          "path": "src/components/shadcn-space/blocks/dialog-block-01/dialog.tsx",
           "type": "registry:component",
-          "target": "components/shadcn-space/blocks/dialog-01/dialog.tsx"
+          "target": "components/shadcn-space/blocks/dialog-block-01/dialog.tsx"
         }
       ]
     },

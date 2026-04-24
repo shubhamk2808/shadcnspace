@@ -1,18 +1,23 @@
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { FieldLabel } from "@/components/ui/field";
 import { Input } from "@/components/ui/input";
 
 const DialogBlock = () => {
   return (
-    <section className="py-10 md:py-20 bg-primary dark:bg-background min-h-screen flex justify-center items-center">
+    <section className="bg-primary dark:bg-background lg:py-20 sm:py-16 py-8">
       <div className="max-w-7xl xl:px-16 lg:px-8 px-4 mx-auto">
         <Dialog defaultOpen>
           <DialogTrigger>
-            <Button variant="outline">Open Dialog</Button>
+            <div className="bg-background px-2.5 py-1.5 rounded-md border border-border text-sm font-semibold">
+              Open Dialog
+            </div>
           </DialogTrigger>
           <DialogContent className="md:max-w-4xl p-0 rounded-none">
+            <DialogHeader className="sr-only">
+              <DialogTitle>Newsletter Popup</DialogTitle>
+            </DialogHeader>
             <div className="flex md:flex-row flex-col">
               <div className="md:max-w-md w-full">
                 <img
@@ -39,12 +44,12 @@ const DialogBlock = () => {
                         type="email"
                         placeholder="example@shadcnspace.com"
                         required
-                        className="dark:bg-background rounded-lg"
+                        className="dark:bg-background rounded-lg h-9 shadow-xs"
                       />
                       <Button
                         type="submit"
                         size={"lg"}
-                        className="rounded-lg h-10"
+                        className="rounded-lg h-10 cursor-pointer hover:bg-primary/80"
                       >
                         Subscribe now
                       </Button>

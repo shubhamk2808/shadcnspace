@@ -1166,7 +1166,7 @@ export const blocks: RegistryBlock[] = [
     masterCategory: MasterCatAdmin,
   },
   {
-    name: 'dialog-01',
+    name: 'dialog-block-01',
     title: 'Dialog 01 - Newsletter Subscription Dialog',
     figmaLink: "https://www.figma.com/design/xN0ICHXEd4moz5sfE5no4r/shadcnspace-figma-uikit-free?node-id=3678-6027&t=s6w7yYhqg5U0ajyZ-1",
     description: 'A modern modal popup for capturing newsletter signups with a friendly hero image, email field, opt-out checkbox, and clear call-to-action to boost conversions.',
@@ -1181,18 +1181,18 @@ export const blocks: RegistryBlock[] = [
     ],
     iframeHeight: "600px",
     files: [{
-      path: 'src/components/shadcn-space/blocks/dialog-01/page.tsx',
-      type: "registry:page",
-      target: 'app/dialog-01/page.tsx',
-    },
-    {
-      path: 'src/components/shadcn-space/blocks/dialog-01/dialog.tsx',
-      type: "registry:component",
-      target: 'components/shadcn-space/blocks/dialog-01/dialog.tsx',
-    },
+        path: "src/components/shadcn-space/blocks/dialog-block-01/page.tsx",
+        type: "registry:page",
+        target: "app/dialog-block-01/page.tsx",
+      },
+      {
+        path: "src/components/shadcn-space/blocks/dialog-block-01/dialog.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/blocks/dialog-block-01/dialog.tsx",
+      },
 
     ],
-    component: React.lazy(() => import('@/components/shadcn-space/blocks/dialog-01/page')),
+    component: React.lazy(() => import('@/components/shadcn-space/blocks/dialog-block-01/page')),
     created_at: '2025-12-21T17:42:25+05:30',
     isPro: false,
     isDraft: false,
