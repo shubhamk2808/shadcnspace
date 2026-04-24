@@ -256,5 +256,93 @@ export const categories = {
     metaKeyword: "shadcn breadcrumb",
     metaTitle: "5+ Shadcn Breadcrumb Navigation Components",
     metaDescription: "Discover 5+ Shadcn Breadcrumb components to create clear navigation paths in React and Next.js applications. Simple, customizable, and developer-friendly."
+  },
+
+  "dialog": {
+    name: "dialog",
+    title: "Dialog",
+    metaKeyword: "shadcn dialog",
+    metaTitle: "6+ Shadcn Dialog Components for React & Next.js",
+    metaDescription: "Explore 6+ Shadcn Dialog components with slide, zoom, and fade animations. Clean, accessible modal dialogs for confirmations, forms, notifications, and more.",
+  },
+
+  "popover": {
+    name: "popover",
+    title: "Popover",
+    metaKeyword: "shadcn popover",
+    metaTitle: "3+ Shadcn Popover Components for React & Next.js",
+    metaDescription: "Explore our Shadcn Popover components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
+  },
+
+  "slider": {
+    name: "slider",
+    title: "Slider",
+    metaKeyword: "shadcn slider",
+    metaTitle: "3+ Shadcn Slider Components for React & Next.js",
+    metaDescription: "Explore our Shadcn Slider components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
+  },
+
+  "skeleton": {
+    name: "skeleton",
+    title: "Skeleton",
+    metaKeyword: "shadcn skeleton",
+    metaTitle: "3+ Shadcn skeleton Components for React & Next.js",
+    metaDescription: "Explore our Shadcn Skeleton components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
+  },
+
+  "spinner": {
+    name: "spinner",
+    title: "Spinner",
+    metaKeyword: "shadcn spinner",
+    metaTitle: "6+ Shadcn Spinner Components for React & Next.js",
+    metaDescription: "Explore our Shadcn Spinner components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
+  },
+
+  "sonner": {
+    name: "sonner",
+    title: "Sonner",
+    metaKeyword: "shadcn sonner",
+    metaTitle: "3+ Shadcn Sonner Components for React & Next.js",
+    metaDescription: "Explore our Shadcn Sonner components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
+  },
+
+  "pagination": {
+    name: "pagination",
+    title: "Pagination",
+    metaKeyword: "shadcn pagination",
+    metaTitle: "3+ Shadcn Pagination Components for React & Next.js",
+    metaDescription: "Explore our Shadcn Pagination components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
+  },
+
+  "scroll-area": {
+    name: "scroll-area",
+    title: "Scroll Area",
+    metaKeyword: "shadcn scroll area",
+    metaTitle: "3+ Shadcn Scroll Area Components for React & Next.js",
+    metaDescription: "Explore our Shadcn Scroll Area components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
+  },
+
+  "input-mask": {
+    name: "input-mask",
+    title: "Input Mask",
+    metaKeyword: "shadcn input mask",
+    metaTitle: "3+ Shadcn Input Mask Components for React & Next.js",
+    metaDescription: "Explore our Shadcn Input Mask components designed for real-world use. Format phone numbers, card expiry dates, MAC addresses, and more with clean masked input fields.",
+  },
+
+  "collapsible": {
+    name: "collapsible",
+    title: "Collapsible",
+    metaKeyword: "shadcn collapsible",
+    metaTitle: "3+ Shadcn Collapsible Components for React & Next.js",
+    metaDescription: "Explore our Shadcn Collapsible components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
+  },
+  
+  "progress": {
+    name: "progress",
+    title: "Progress",
+    metaKeyword: "shadcn progress",
+    metaTitle: "3+ Shadcn Progress Components for React & Next.js",
+    metaDescription: "Explore our Shadcn Progress components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
   }
 } as const;

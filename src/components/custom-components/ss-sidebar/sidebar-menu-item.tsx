@@ -38,7 +38,8 @@ const AppSidebarMenuItem = ({
       ? (categorizedBlocks as any)[item.blockName].length
       : 0;
 
-  const fileCount = componentCount || blockCount;
+  const isBlock = item.url.startsWith("/blocks");
+  const fileCount = isBlock ? blockCount : componentCount;
 
   const categoryComponents = components.filter(
     (comp) => comp.category.name === item.blockName,
@@ -55,7 +56,7 @@ const AppSidebarMenuItem = ({
     (block: any) => block.created_at && isNew(block.created_at),
   ).length;
 
-  const totalNewCount = newComponentsCount + newBlocksCount;
+  const totalNewCount = isBlock ? newBlocksCount : newComponentsCount;
 
   return (
     <SidebarMenuSubItem {...props}>

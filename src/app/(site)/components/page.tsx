@@ -59,8 +59,9 @@ export default function Page() {
                     )
                   : 0;
 
-              const count = componentCount || blockCount;
-              const newCount = newComponentsCount || newBlocksCount;
+              const isBlock = component.url.startsWith("/blocks");
+              const count = isBlock ? blockCount : componentCount;
+              const newCount = isBlock ? newBlocksCount : newComponentsCount;
               return (
                 <ComponentCard
                   key={component.title}
