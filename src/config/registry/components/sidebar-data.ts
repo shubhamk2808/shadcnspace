@@ -21,7 +21,7 @@ interface ComponentDetails {
   headingTitle?: string;
   url: string;
   icon?: string | LucideIcon;
-  blockName: string;
+  blockName?: string;
   columns?: number;
   description?: string;
   image?: any;
@@ -440,6 +440,158 @@ export const componentsMap: ComponentsMap = {
       () => import('@/app/(site)/docs/component-info/breadcrumb')
     ),
   },
+  "dialog": {
+    title: "Dialog",
+    headingTitle: "Shadcn Dialog",
+    url: "/components/dialog",
+    blockName: "dialog",
+    icon: AppWindowMac,
+    columns: 2,
+    description: "Explore our Shadcn Dialog components with slide and zoom animations. Clean, accessible modal dialogs for confirmations, forms, notifications, and more.",
+    image: "https://images.shadcnspace.com/assets/components/dialog.webp",
+    component: React.lazy(
+      () => import('@/app/(site)/docs/component-info/dialog')
+    ),
+  },
+  "popover": {
+    title: "Popover",
+    headingTitle: "Shadcn Popover",
+    url: "/components/popover",
+    blockName: "popover",
+    icon: AppWindowMac,
+    columns: 3,
+    description: "Explore our Shadcn Popover components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
+    image: "https://images.shadcnspace.com/assets/components/popover.webp",
+    component: React.lazy(
+      () => import('@/app/(site)/docs/component-info/popover')
+    ),
+  },
+  slider: {
+    title: "Slider",
+    url: "/components/slider",
+    headingTitle: "Shadcn Slider",
+    icon: SquareChevronUp,
+    blockName: "slider",
+    columns: 3,
+    description:
+      "Discover our collection of Shadcn Slider components with customizable and interactive slider variants built using React and Tailwind CSS.",
+    image: "https://images.shadcnspace.com/assets/components/slider.webp",
+    component: React.lazy(
+      () => import("@/app/(site)/docs/component-info/slider"),
+    ),
+  },
+  skeleton: {
+    title: "Skeleton",
+    url: "/components/skeleton",
+    headingTitle: "Shadcn Skeleton",
+    icon: SquareChevronUp,
+    blockName: "skeleton",
+    columns: 1,
+    description:
+      "Discover our collection of Shadcn Skeleton components with fully customizable and interactive skeleton variants built using React and Tailwind CSS.",
+    image: "https://images.shadcnspace.com/assets/components/skeleton.webp",
+    component: React.lazy(
+      () => import("@/app/(site)/docs/component-info/skeleton"),
+    ),
+  },
+  spinner: {
+    title: "Spinner",
+    url: "/components/spinner",
+    headingTitle: "Shadcn Spinner",
+    icon: SquareChevronUp,
+    blockName: "spinner",
+    columns: 3,
+    description:
+      "Discover a curated collection of Shadcn Spinner components with fully customizable and interactive spinner variants built using React and Tailwind CSS.",
+    image: "https://images.shadcnspace.com/assets/components/spinner.webp",
+    component: React.lazy(
+      () => import("@/app/(site)/docs/component-info/spinner"),
+    ),
+  },
+  sonner: {
+    title: "Sonner",
+    url: "/components/sonner",
+    headingTitle: "Shadcn Sonner",
+    icon: SquareChevronUp,
+    blockName: "sonner",
+    columns: 3,
+    description:
+      "Discover a curated collection of Shadcn Sonner components with 3+ customizable and interactive sonner variants built using React and Tailwind CSS.",
+    image: "https://images.shadcnspace.com/assets/components/sonner.webp",
+    component: React.lazy(
+      () => import("@/app/(site)/docs/component-info/sonner"),
+    ),
+  },
+  pagination: {
+    title: "Pagination",
+    url: "/components/pagination",
+    headingTitle: "Shadcn Pagination",
+    icon: SquareChevronUp,
+    blockName: "pagination",
+    columns: 2,
+    description:
+      "Discover a curated collection of Shadcn Pagination components with fully customizable and interactive pagination variants built using React and Tailwind CSS.",
+    image: "https://images.shadcnspace.com/assets/components/pagination.webp",
+    component: React.lazy(
+      () => import("@/app/(site)/docs/component-info/pagination"),
+    ),
+  },
+  "scroll-area": {
+    title: "Scroll Area",
+    url: "/components/scroll-area",
+    headingTitle: "Shadcn Scroll Area",
+    icon: SquareChevronUp,
+    blockName: "scroll-area",
+    columns: 1,
+    description:
+      "Explore our Shadcn Scroll Area components built using React and Tailwind CSS, made to create clean, customizable scrollable sections in your UI.",
+    image: "https://images.shadcnspace.com/assets/components/scroll-area.webp",
+    component: React.lazy(
+      () => import("@/app/(site)/docs/component-info/scroll-area"),
+    ),
+  },
+  "input-mask": {
+    title: "Input Mask",
+    url: "/components/input-mask",
+    headingTitle: "Shadcn Input Mask",
+    icon: TextCursorInput,
+    blockName: "input-mask",
+    columns: 3,
+    description:
+      "Explore customizable Shadcn Input Mask components built with React and Tailwind CSS for smooth and guided data entry.",
+    image: "https://images.shadcnspace.com/assets/components/input-mask.webp",
+    component: React.lazy(
+      () => import("@/app/(site)/docs/component-info/input-mask"),
+    ),
+  },
+  "collapsible": {
+    title: "Collapsible",
+    url: "/components/collapsible",
+    headingTitle: "Shadcn Collapsible",
+    icon: SquareChevronUp,
+    blockName: "collapsible",
+    columns: 1,
+    description:
+      "Carefully designed Shadcn Collapsible components using React and Tailwind CSS to create clean, interactive, and easy-to-use content sections.",
+    image: "https://images.shadcnspace.com/assets/components/collapsible.webp",
+    component: React.lazy(
+      () => import("@/app/(site)/docs/component-info/collapsible"),
+    ),
+  },
+  "progress": {
+    title: "Progress",
+    url: "/components/progress",
+    headingTitle: "Shadcn Progress",
+    icon: SquareChevronUp,
+    blockName: "progress",
+    columns: 1,
+    description:
+      "Carefully designed Shadcn Progress components using React and Tailwind CSS to create smooth and customizable progress experiences.",
+    image: "https://images.shadcnspace.com/assets/components/progress.webp",
+    component: React.lazy(
+      () => import("@/app/(site)/docs/component-info/progress"),
+    ),
+  },
   form: {
     title: "Form",
     headingTitle: "Shadcn Form",
@@ -460,13 +612,6 @@ export const componentsMap: ComponentsMap = {
     headingTitle: "Shadcn Navbar",
     blockName: "navbar-section",
     image: "https://images.shadcnspace.com/assets/blocks-images/marketing/navbar-section.webp",
-  },
-  dialog: {
-    title: "Dialog",
-    url: "/blocks/dashboard-ui/dialog",
-    headingTitle: "Shadcn Dialog",
-    blockName: "dialog",
-    image: "https://images.shadcnspace.com/assets/blocks-images/dashboard/dialog-blocks.webp",
   },
   dropdown: {
     title: "Dropdown",
