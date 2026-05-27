@@ -1436,6 +1436,147 @@
       ]
     },
     {
+      "name": "product-overview-01",
+      "title": "Product Overview 01 - For Skincare Product",
+      "description": "A structured skincare layout featuring image grid previews, descriptive content, pricing details, size selection, and collapsible sections for ingredients, shipping, and product overview information.",
+      "type": "registry:block",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "badge",
+        "button",
+        "separator",
+        "accordion",
+        "sonner"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/blocks/product-overview-01/page.tsx",
+          "type": "registry:page",
+          "target": "app/product-overview-01/page.tsx"
+        },
+        {
+          "path": "src/components/shadcn-space/blocks/product-overview-01/index.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/blocks/product-overview-01/index.tsx"
+        },
+        {
+          "path": "src/components/shadcn-space/blocks/product-overview-01/product-overview.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/blocks/product-overview-01/product-overview.tsx"
+        }
+      ]
+    },
+    {
+      "name": "product-category-01",
+      "title": "Product Category 01 - Horizontal List",
+      "description": "A horizontal category list displaying product groups with icons, item counts, and quick links, enabling users to scan categories quickly and navigate products efficiently.",
+      "type": "registry:block",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/blocks/product-category-01/page.tsx",
+          "type": "registry:page",
+          "target": "app/product-category-01/page.tsx"
+        },
+        {
+          "path": "src/components/shadcn-space/blocks/product-category-01/product-category.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/blocks/product-category-01/product-category.tsx"
+        }
+      ]
+    },
+    {
+      "name": "product-category-02",
+      "title": "Product Category 02 - Image Based",
+      "description": "A product category section built with image-driven cards and filters, enabling faster discovery through visuals and improving navigation across different product groups.",
+      "type": "registry:block",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/blocks/product-category-02/page.tsx",
+          "type": "registry:page",
+          "target": "app/product-category-02/page.tsx"
+        },
+        {
+          "path": "src/components/shadcn-space/blocks/product-category-02/product-category.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/blocks/product-category-02/product-category.tsx"
+        }
+      ]
+    },
+    {
+      "name": "product-listing-01",
+      "title": "Product Listing 01 - Multi Column Grid",
+      "description": "A multi-column layout featuring product cards with images, reviews, and pricing details, helping users scan, compare, and select products quickly.",
+      "type": "registry:block",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button",
+        "badge",
+        "card"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/blocks/product-listing-01/page.tsx",
+          "type": "registry:page",
+          "target": "app/product-listing-01/page.tsx"
+        },
+        {
+          "path": "src/components/shadcn-space/blocks/product-listing-01/index.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/blocks/product-listing-01/index.tsx"
+        },
+        {
+          "path": "src/components/shadcn-space/blocks/product-listing-01/product-card.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/blocks/product-listing-01/product-card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "checkout-01",
+      "title": "Checkout 01 - Tabbed Billing Checkout",
+      "description": "A clean checkout interface with tab-based payment selection, subscription pricing details, and streamlined billing inputs for smooth transaction flows.",
+      "type": "registry:block",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button",
+        "card",
+        "input",
+        "label",
+        "select",
+        "tabs"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/blocks/checkout-01/page.tsx",
+          "type": "registry:page",
+          "target": "app/checkout-01/page.tsx"
+        },
+        {
+          "path": "src/components/shadcn-space/blocks/checkout-01/index.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/blocks/checkout-01/index.tsx"
+        }
+      ]
+    },
+    {
       "name": "apple-dock",
       "title": "Default",
       "description": "Apple Dock component",
@@ -1477,8 +1618,8 @@
       ]
     },
     {
-      "name": "animated-list",
-      "title": "Default",
+      "name": "animated-list-01",
+      "title": "Animated List 01 - Default",
       "description": "Animated List component",
       "type": "registry:component",
       "dependencies": [
@@ -1487,9 +1628,47 @@
       "registryDependencies": [],
       "files": [
         {
-          "path": "src/components/shadcn-space/animated-list/animated-list.tsx",
+          "path": "src/components/shadcn-space/animated-list/animated-list-01.tsx",
           "type": "registry:component",
-          "target": "components/shadcn-space/animated-list/animated-list.tsx"
+          "target": "components/shadcn-space/animated-list/animated-list-01.tsx"
+        }
+      ]
+    },
+    {
+      "name": "animated-list-02",
+      "title": "Animated List 02 - Setup Steps",
+      "description": "Setup Steps component",
+      "type": "registry:component",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/animated-list/animated-list-02.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/animated-list/animated-list-02.tsx"
+        }
+      ]
+    },
+    {
+      "name": "animated-list-03",
+      "title": "Animated List 03 - Expandable Stack",
+      "description": "Expandable stack of cards showing notifications with dynamic spring layouts",
+      "type": "registry:component",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/animated-list/animated-list-03.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/animated-list/animated-list-03.tsx"
         }
       ]
     },
@@ -2640,6 +2819,40 @@
       ]
     },
     {
+      "name": "animated-text-06",
+      "title": "Animated Text-06 - Reveal Text",
+      "description": "Animated Text Reveal component",
+      "type": "registry:component",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/animated-text/animated-text-06.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/animated-text/animated-text-06.tsx"
+        }
+      ]
+    },
+    {
+      "name": "animated-text-07",
+      "title": "Animated Text-07 - Morph Text",
+      "description": "Animated Text Morph component",
+      "type": "registry:component",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/animated-text/animated-text-07.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/animated-text/animated-text-07.tsx"
+        }
+      ]
+    },
+    {
       "name": "input-01",
       "title": "Input-01 - Input with date",
       "description": "Input component",
@@ -2978,6 +3191,28 @@
           "path": "src/components/shadcn-space/input/input-18.tsx",
           "type": "registry:component",
           "target": "components/shadcn-space/input/input-18.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input-19",
+      "title": "Input-19 - With Animated Checkmark",
+      "description": "Input component",
+      "type": "registry:component",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [
+        "button",
+        "input",
+        "label"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/input/input-19.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/input/input-19.tsx"
         }
       ]
     },
@@ -4230,6 +4465,24 @@
       ]
     },
     {
+      "name": "spinning-text-02",
+      "title": "Spinning Text-02 - With Icon",
+      "description": "Spinning Text component with animated icon",
+      "type": "registry:component",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/spinning-text/spinning-text-02.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/spinning-text/spinning-text-02.tsx"
+        }
+      ]
+    },
+    {
       "name": "date-picker-01",
       "title": "Date Picker-01 - Data & Time Picker",
       "description": "A professional appointment booking card with date and time range selection.",
@@ -5040,6 +5293,25 @@
       ]
     },
     {
+      "name": "slider-04",
+      "title": "Slider 04 - Modern Volume",
+      "description": "A sleek volume slider featuring a bold track design, custom vertical thumb, and smooth percentage transitions with NumberFlow.",
+      "type": "registry:component",
+      "dependencies": [
+        "@number-flow/react"
+      ],
+      "registryDependencies": [
+        "slider"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/slider/slider-04.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/slider/slider-04.tsx"
+        }
+      ]
+    },
+    {
       "name": "skeleton-01",
       "title": "Skeleton 01 - Profile with Stats",
       "description": "Animated profile skeleton with staggered fade-up motion on each element — avatar, text lines, stats grid, and CTA button.",
@@ -5189,6 +5461,23 @@
       ]
     },
     {
+      "name": "spinner-07",
+      "title": "Spinner 07 - Orbital Spinner",
+      "description": "A central core with three orbiting rings that spin in opposite directions with varying opacity and size.",
+      "type": "registry:component",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/spinner/spinner-07.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/spinner/spinner-07.tsx"
+        }
+      ]
+    },
+    {
       "name": "sonner-01",
       "title": "Sonner 01 - Upload File",
       "description": "A clean, minimal toast notification for file upload progress and status updates.",
@@ -5239,6 +5528,49 @@
           "path": "src/components/shadcn-space/sonner/sonner-03.tsx",
           "type": "registry:component",
           "target": "components/shadcn-space/sonner/sonner-03.tsx"
+        }
+      ]
+    },
+    {
+      "name": "sonner-04",
+      "title": "Sonner 04 - Custom PR Merge",
+      "description": "A premium custom toast notification for Pull Request merge flows with approval avatars.",
+      "type": "registry:component",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button",
+        "sonner",
+        "separator",
+        "avatar"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/sonner/sonner-04.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/sonner/sonner-04.tsx"
+        }
+      ]
+    },
+    {
+      "name": "sonner-05",
+      "title": "Sonner 05 - Custom Sync Status",
+      "description": "A clean, minimal toast notification showing active repository sync status.",
+      "type": "registry:component",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button",
+        "sonner",
+        "separator"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/sonner/sonner-05.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/sonner/sonner-05.tsx"
         }
       ]
     },
@@ -5536,6 +5868,183 @@
           "path": "src/components/shadcn-space/progress/progress-03.tsx",
           "type": "registry:component",
           "target": "components/shadcn-space/progress/progress-03.tsx"
+        }
+      ]
+    },
+    {
+      "name": "progress-04",
+      "title": "Progress 04 - Shimmer Status Progress",
+      "description": "Animated progressbar with real-time text updates, smooth entrance and exit animations, and a polished UI.",
+      "type": "registry:component",
+      "dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "progress"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/progress/progress-04.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/progress/progress-04.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input-otp-01",
+      "title": "Input OTP-01 - Default",
+      "description": "Default input OTP component",
+      "type": "registry:component",
+      "dependencies": [],
+      "registryDependencies": [
+        "input-otp"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/input-otp/input-otp-01.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/input-otp/input-otp-01.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input-otp-02",
+      "title": "Input OTP-02 - Digits Only",
+      "description": "Input OTP component with pattern to allow only digits",
+      "type": "registry:component",
+      "dependencies": [],
+      "registryDependencies": [
+        "input-otp",
+        "field"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/input-otp/input-otp-02.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/input-otp/input-otp-02.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input-otp-03",
+      "title": "Input OTP-03 - With Separator",
+      "description": "Input OTP component with separator between segments",
+      "type": "registry:component",
+      "dependencies": [],
+      "registryDependencies": [
+        "input-otp"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/input-otp/input-otp-03.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/input-otp/input-otp-03.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input-otp-04",
+      "title": "Input OTP-04 - Disabled",
+      "description": "Input OTP component in disabled state",
+      "type": "registry:component",
+      "dependencies": [],
+      "registryDependencies": [
+        "input-otp"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/input-otp/input-otp-04.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/input-otp/input-otp-04.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input-otp-05",
+      "title": "Input OTP-05 - Controlled",
+      "description": "Input OTP component in controlled state",
+      "type": "registry:component",
+      "dependencies": [],
+      "registryDependencies": [
+        "input-otp"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/input-otp/input-otp-05.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/input-otp/input-otp-05.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input-otp-06",
+      "title": "Input OTP-06 - Invalid",
+      "description": "Input OTP component in invalid state",
+      "type": "registry:component",
+      "dependencies": [],
+      "registryDependencies": [
+        "input-otp",
+        "field"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/input-otp/input-otp-06.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/input-otp/input-otp-06.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input-otp-07",
+      "title": "Input OTP-07 - Four Digits",
+      "description": "Input OTP component with pattern to allow only 4 digits",
+      "type": "registry:component",
+      "dependencies": [],
+      "registryDependencies": [
+        "input-otp"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/input-otp/input-otp-07.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/input-otp/input-otp-07.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input-otp-08",
+      "title": "Input OTP-08 - Alphanumeric",
+      "description": "Input OTP component with pattern to allow only alphanumeric characters",
+      "type": "registry:component",
+      "dependencies": [],
+      "registryDependencies": [
+        "input-otp"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/input-otp/input-otp-08.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/input-otp/input-otp-08.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input-otp-09",
+      "title": "Input OTP-09 - Animated",
+      "description": "Input OTP component with animation",
+      "type": "registry:component",
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "input-otp"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/input-otp/input-otp-09.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/input-otp/input-otp-09.tsx"
         }
       ]
     }

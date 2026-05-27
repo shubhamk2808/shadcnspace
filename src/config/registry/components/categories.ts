@@ -344,5 +344,13 @@ export const categories = {
     metaKeyword: "shadcn progress",
     metaTitle: "3+ Shadcn Progress Components for React & Next.js",
     metaDescription: "Explore our Shadcn Progress components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
+  },
+
+  "input-otp": {
+    name: "input-otp",
+    title: "Input Otp",
+    metaKeyword: "shadcn input otp",
+    metaTitle: "{count}+ Shadcn Input OTP Component Built with React & Tailwind CSS",
+    metaDescription: "Discover {count}+ developer-friendly Shadcn Input OTP components built with React and Tailwind CSS for fast and secure verification workflows.",
   }
 } as const;

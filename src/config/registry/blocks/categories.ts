@@ -215,6 +215,65 @@ export const categories = {
       "Shadcn UI bento grid blocks for flexible, grid-based layouts. Display content in varied card sizes, preview layouts, and copy ready-to-use blocks.",
   },
 
+  // Ecommerce Blocks
+  productCategory: {
+    name: "product-category",
+    title: "Product Category",
+    icon: "mdi:view-dashboard-outline",
+    image: "https://images.shadcnspace.com/assets/blocks-images/ecommerce/product-category.webp",
+    isHome: false,
+    metaKeywords: "shadcn product category",
+    metaTitle: "{count}+ Shadcn Product Category",
+    metaDescription:
+      "Explore {count}+ shadcn UI product category blocks to display product category. Preview layouts and copy ready-to-use blocks for marketing pages.",
+  },
+
+  productoverview:{
+    name: "product-overview",
+    title: "Product Overview",
+    icon: "mdi:view-dashboard-outline",
+    image: "https://images.shadcnspace.com/assets/blocks-images/ecommerce/product-overview.webp",
+    isHome: false,
+    metaKeywords: "shadcn product overview",
+    metaTitle: "{count}+ Shadcn Product Overview",
+    metaDescription:
+      "Explore {count}+ shadcn UI product overview blocks to display products. Preview layouts and copy ready-to-use blocks for marketing pages.",
+  },
+
+  productlisting:{
+    name: "product-listing",
+    title: "Product Listing",
+    icon: "mdi:view-dashboard-outline",
+    image: "https://images.shadcnspace.com/assets/blocks-images/ecommerce/product-listing.webp",
+    isHome: false,
+    metaKeywords: "shadcn product listing",
+    metaTitle: "{count}+ Shadcn Product Listing",
+    metaDescription:
+      "Explore {count}+ shadcn UI product listing blocks to display products. Preview layouts and copy ready-to-use blocks for marketing pages.",
+  },
+  productquickview: {
+    name: "product-quick-view",
+    title: "Product Quick View",
+    icon: "mdi:view-dashboard-outline",
+    image: "https://images.shadcnspace.com/assets/blocks-images/ecommerce/product-quick-view.webp",
+    isHome: false,
+    metaKeywords: "shadcn product quick view",
+    metaTitle: "{count}+ Shadcn Product Quick View",
+    metaDescription:
+      "Explore {count}+ shadcn UI product quick view blocks to display products. Preview layouts and copy ready-to-use blocks for marketing pages.",
+  },
+  checkout: {
+    name: "checkout",
+    title: "Checkout",
+    icon: "mdi:view-dashboard-outline",
+    image: "https://images.shadcnspace.com/assets/blocks-images/ecommerce/checkout.webp",
+    isHome: false,
+    metaKeywords: "shadcn checkout",
+    metaTitle: "{count}+ Shadcn Checkout Blocks & Sections for Ecommerce Stores",
+    metaDescription:
+      "Explore {count}+ Shadcn UI checkout blocks built with React, Tailwind CSS, and shadcn/ui. Copy ready-to-use Ecommerce checkout sections for modern websites.",
+  },
+
   // Dashboard Blocks
   dashboardShell: {
     name: "dashboard-shell",

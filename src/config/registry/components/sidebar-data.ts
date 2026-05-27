@@ -592,6 +592,20 @@ export const componentsMap: ComponentsMap = {
       () => import("@/app/(site)/docs/component-info/progress"),
     ),
   },
+  "input-otp": {
+    title: "Input OTP",
+    url: "/components/input-otp",
+    headingTitle: "Shadcn Input OTP",
+    icon: SquareChevronUp,
+    blockName: "input-otp",
+    columns: 2,
+    description:
+      "Explore clean and easy-to-use Shadcn Input OTP components built with React, Tailwind CSS, and shadcn/ui for secure login and verification flows.",
+    image: "https://images.shadcnspace.com/assets/components/input-otp.webp",
+    component: React.lazy(
+      () => import("@/app/(site)/docs/component-info/input-otp"),
+    ),
+  },
   form: {
     title: "Form",
     headingTitle: "Shadcn Form",

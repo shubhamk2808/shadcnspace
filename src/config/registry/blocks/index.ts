@@ -31,8 +31,8 @@ export interface RegistryBlock {
 }
 
 const MasterCatWebsite = masterCategoriesArray[0];
-const MasterCatAdmin = masterCategoriesArray[1];
-const MasterCatEcommerce = masterCategoriesArray[2];
+const MasterCatEcommerce = masterCategoriesArray[1];
+const MasterCatAdmin = masterCategoriesArray[2];
 
 export const blocks: RegistryBlock[] = [
   {
@@ -1622,4 +1622,164 @@ export const blocks: RegistryBlock[] = [
     categories: [categories.widgets],
     masterCategory: MasterCatAdmin,
   },
+  {
+    name: "product-overview-01",
+    title: "Product Overview 01 - For Skincare Product",
+    description: "A structured skincare layout featuring image grid previews, descriptive content, pricing details, size selection, and collapsible sections for ingredients, shipping, and product overview information.",
+    type: "registry:block",
+    dependencies: ["lucide-react"],
+    registryDependencies: ["badge", "button", "separator", "accordion", "sonner"],
+    iframeHeight: "966px",
+    figmaLink: "https://www.figma.com/design/ULwX3CvyKShG8y7jtc9f8z/shadcnspace-figma-uikit-pro?node-id=12984-78&m=dev",
+    files: [
+      {
+        path: "src/components/shadcn-space/blocks/product-overview-01/page.tsx",
+        type: "registry:page",
+        target: "app/product-overview-01/page.tsx",
+      },
+      {
+        path: "src/components/shadcn-space/blocks/product-overview-01/index.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/blocks/product-overview-01/index.tsx",
+      },
+      {
+        path: "src/components/shadcn-space/blocks/product-overview-01/product-overview.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/blocks/product-overview-01/product-overview.tsx",
+      }
+    ],
+    component: React.lazy(
+      () => import("@/components/shadcn-space/blocks/product-overview-01/page"),
+    ),
+    created_at: "2026-05-12T00:00:00+05:30",
+    isPro: false,
+    isDraft: false,
+    categories: [categories.productoverview],
+    masterCategory: MasterCatEcommerce,
+  },
+  {
+    name: "product-category-01",
+    title: "Product Category 01 - Horizontal List",
+    description: "A horizontal category list displaying product groups with icons, item counts, and quick links, enabling users to scan categories quickly and navigate products efficiently.",
+    type: "registry:block",
+    figmaLink: "https://www.figma.com/design/ULwX3CvyKShG8y7jtc9f8z/shadcnspace-figma-uikit-pro?node-id=13099-1600&t=KGvaYGGej1bAHRtQ-1",
+    dependencies: ["motion", "lucide-react"],
+    registryDependencies: [],
+    iframeHeight: "370px",
+    files: [
+      {
+        path: "src/components/shadcn-space/blocks/product-category-01/page.tsx",
+        type: "registry:page",
+        target: "app/product-category-01/page.tsx",
+      },
+      {
+        path: "src/components/shadcn-space/blocks/product-category-01/product-category.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/blocks/product-category-01/product-category.tsx",
+      },
+    ],
+    component: React.lazy(
+      () => import("@/components/shadcn-space/blocks/product-category-01/page"),
+    ),
+    created_at: "2026-05-12T00:00:00+05:30",
+    isPro: false,
+    isDraft: false,
+    categories: [categories.productCategory],
+    masterCategory: MasterCatEcommerce,
+  },
+  {
+    name: "product-category-02",
+    title: "Product Category 02 - Image Based",
+    description: "A product category section built with image-driven cards and filters, enabling faster discovery through visuals and improving navigation across different product groups.",
+    type: "registry:block",
+    figmaLink: "https://www.figma.com/design/ULwX3CvyKShG8y7jtc9f8z/shadcnspace-figma-uikit-pro?node-id=13099-1600&t=KGvaYGGej1bAHRtQ-1",
+    dependencies: ["motion", "lucide-react"],
+    registryDependencies: ["button"],
+    iframeHeight: "820px",
+    files: [
+      {
+        path: "src/components/shadcn-space/blocks/product-category-02/page.tsx",
+        type: "registry:page",
+        target: "app/product-category-02/page.tsx",
+      },
+      {
+        path: "src/components/shadcn-space/blocks/product-category-02/product-category.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/blocks/product-category-02/product-category.tsx",
+      },
+    ],
+    component: React.lazy(
+      () => import("@/components/shadcn-space/blocks/product-category-02/page"),
+    ),
+    created_at: "2026-05-12T00:00:00+05:30",
+    isPro: false,
+    isDraft: false,
+    categories: [categories.productCategory],
+    masterCategory: MasterCatEcommerce,
+  },
+  {
+    name: "product-listing-01",
+    title: "Product Listing 01 - Multi Column Grid",
+    description: "A multi-column layout featuring product cards with images, reviews, and pricing details, helping users scan, compare, and select products quickly.",
+    type: "registry:block",
+    dependencies: ["lucide-react"],
+    registryDependencies: ["button", "badge", "card"],
+    iframeHeight: "680px",
+    figmaLink: "https://www.figma.com/design/ULwX3CvyKShG8y7jtc9f8z/shadcnspace-figma-uikit-pro?node-id=12984-78&m=dev",
+    files: [
+      {
+        path: "src/components/shadcn-space/blocks/product-listing-01/page.tsx",
+        type: "registry:page",
+        target: "app/product-listing-01/page.tsx",
+      },
+      {
+        path: "src/components/shadcn-space/blocks/product-listing-01/index.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/blocks/product-listing-01/index.tsx"
+      },
+      {
+        path: "src/components/shadcn-space/blocks/product-listing-01/product-card.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/blocks/product-listing-01/product-card.tsx",
+      }
+    ],
+    component: React.lazy(
+      () => import("@/components/shadcn-space/blocks/product-listing-01/page"),
+    ),
+    created_at: "2026-05-12T00:00:00+05:30",
+    isPro: false,
+    isDraft: false,
+    categories: [categories.productlisting],
+    masterCategory: MasterCatEcommerce,
+  },
+  {
+    name: "checkout-01",
+    title: "Checkout 01 - Tabbed Billing Checkout",
+    description: "A clean checkout interface with tab-based payment selection, subscription pricing details, and streamlined billing inputs for smooth transaction flows.",
+    type: "registry:block",
+    dependencies: ["lucide-react"],
+    registryDependencies: ["button", "card", "input", "label", "select", "tabs"],
+    iframeHeight: "1118px",
+    figmaLink: "https://www.figma.com/design/ULwX3CvyKShG8y7jtc9f8z/shadcnspace-figma-uikit-pro?node-id=15236-792&t=KznLsT53HQRhTgNz-1",
+    files: [
+      {
+        path: "src/components/shadcn-space/blocks/checkout-01/page.tsx",
+        type: "registry:page",
+        target: "app/checkout-01/page.tsx",
+      },
+      {
+        path: "src/components/shadcn-space/blocks/checkout-01/index.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/blocks/checkout-01/index.tsx",
+      },
+    ],
+    component: React.lazy(
+      () => import("@/components/shadcn-space/blocks/checkout-01/page"),
+    ),
+    created_at: "2026-05-26T00:00:00+05:30",
+    isPro: false,
+    isDraft: false,
+    categories: [categories.checkout],
+    masterCategory: MasterCatEcommerce,
+  }
 ];

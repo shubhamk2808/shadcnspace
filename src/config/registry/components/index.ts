@@ -37,19 +37,53 @@ export const components = [
     category: categories["orbiting-circles"],
   },
   {
-    name: "animated-list",
-    title: "Default",
+    name: "animated-list-01",
+    title: "Animated List 01 - Default",
     description: "Animated List component",
     type: "registry:component",
     dependencies: ["motion"],
     files: [
       {
-        path: "src/components/shadcn-space/animated-list/animated-list.tsx",
+        path: "src/components/shadcn-space/animated-list/animated-list-01.tsx",
         type: "registry:component",
-        target: "components/shadcn-space/animated-list/animated-list.tsx",
+        target: "components/shadcn-space/animated-list/animated-list-01.tsx",
       },
     ],
     category: categories["animated-list"],
+  },
+  {
+    name: "animated-list-02",
+    title: "Animated List 02 - Setup Steps",
+    description: "Setup Steps component",
+    type: "registry:component",
+    dependencies: ["motion", "lucide-react"],
+    files: [
+      {
+        path: "src/components/shadcn-space/animated-list/animated-list-02.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/animated-list/animated-list-02.tsx",
+      },
+    ],
+    category: categories["animated-list"],
+    isNew: true,
+  },
+  {
+    name: "animated-list-03",
+    title: "Animated List 03 - Expandable Stack",
+    description:
+      "Expandable stack of cards showing notifications with dynamic spring layouts",
+    type: "registry:component",
+    registryDependencies: ["button"],
+    dependencies: ["motion", "lucide-react"],
+    files: [
+      {
+        path: "src/components/shadcn-space/animated-list/animated-list-03.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/animated-list/animated-list-03.tsx",
+      },
+    ],
+    category: categories["animated-list"],
+    isNew: true,
   },
   {
     name: "marquee-02",
@@ -187,8 +221,7 @@ export const components = [
         target: "components/shadcn-space/accordion/accordion-07.tsx",
       },
     ],
-    category: categories["accordion"],
-    isNew: true
+    category: categories["accordion"],    
   },
   {
     name: "avatar-01",
@@ -304,8 +337,7 @@ export const components = [
         target: "components/shadcn-space/avatar/avatar-07.tsx",
       },
     ],
-    category: categories["avatar"],  
-    isNew: true
+    category: categories["avatar"],
   },
   {
     name: "avatar-08",
@@ -322,7 +354,6 @@ export const components = [
       },
     ],
     category: categories["avatar"],
-    isNew: true
   },
   {
     name: "button-01",
@@ -605,7 +636,6 @@ export const components = [
       },
     ],
     category: categories["button"],
-    isNew: true
   },
   {
     name: "button-18",
@@ -622,7 +652,6 @@ export const components = [
       },
     ],
     category: categories["button"],
-    isNew: true
   },
   {
     name: "button-group-01",
@@ -1084,7 +1113,41 @@ export const components = [
     ],
     category: categories["animated-text"],
   },
-
+  {
+    name: "animated-text-06",
+    title: "Animated Text-06 - Reveal Text",
+    description: "Animated Text Reveal component",
+    type: "registry:component",
+    registryDependencies: [],
+    dependencies: ["motion"],
+    files: [
+      {
+        path: "src/components/shadcn-space/animated-text/animated-text-06.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/animated-text/animated-text-06.tsx",
+      },
+    ],
+    category: categories["animated-text"],
+    isAnimate: true,
+    isNew: true,
+  },
+  {
+    name: "animated-text-07",
+    title: "Animated Text-07 - Morph Text",
+    description: "Animated Text Morph component",
+    type: "registry:component",
+    registryDependencies: [],
+    dependencies: ["motion"],
+    files: [
+      {
+        path: "src/components/shadcn-space/animated-text/animated-text-07.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/animated-text/animated-text-07.tsx",
+      },
+    ],
+    category: categories["animated-text"],
+    isNew: true,
+  },
   {
     name: "input-01",
     title: "Input-01 - Input with date",
@@ -1372,6 +1435,23 @@ export const components = [
       },
     ],
     category: categories["input"],
+  },
+  {
+    name: "input-19",
+    title: "Input-19 - With Animated Checkmark",
+    description: "Input component",
+    type: "registry:component",
+    registryDependencies: ["button", "input", "label"],
+    dependencies: ["lucide-react", "motion"],
+    files: [
+      {
+        path: "src/components/shadcn-space/input/input-19.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/input/input-19.tsx",
+      },
+    ],
+    category: categories["input"],
+    isNew: true,
   },
   {
     name: "textarea-01",
@@ -2455,6 +2535,22 @@ export const components = [
     category: categories["spinning-text"],
   },
   {
+    name: "spinning-text-02",
+    title: "Spinning Text-02 - With Icon",
+    description: "Spinning Text component with animated icon",
+    type: "registry:component",
+    registryDependencies: [],
+    dependencies: ["lucide-react", "motion"],
+    files: [
+      {
+        path: "src/components/shadcn-space/spinning-text/spinning-text-02.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/spinning-text/spinning-text-02.tsx",
+      },
+    ],
+    category: categories["spinning-text"],
+  },
+  {
     name: "date-picker-01",
     title: "Date Picker-01 - Data & Time Picker",
     description: "A professional appointment booking card with date and time range selection.",
@@ -2873,8 +2969,7 @@ export const components = [
         target: "components/shadcn-space/dialog/dialog-01.tsx",
       },
     ],
-    category: categories["dialog"],    
-    isNew: true
+    category: categories["dialog"],
   },
   {
     name: "dialog-02",
@@ -2890,8 +2985,7 @@ export const components = [
         target: "components/shadcn-space/dialog/dialog-02.tsx",
       },
     ],
-    category: categories["dialog"],    
-    isNew: true
+    category: categories["dialog"],
   },
   {
     name: "dialog-03",
@@ -2907,8 +3001,7 @@ export const components = [
         target: "components/shadcn-space/dialog/dialog-03.tsx",
       },
     ],
-    category: categories["dialog"],   
-    isNew: true 
+    category: categories["dialog"],
   },
   {
     name: "dialog-04",
@@ -2924,8 +3017,7 @@ export const components = [
         target: "components/shadcn-space/dialog/dialog-04.tsx",
       },
     ],
-    category: categories["dialog"],   
-    isNew: true 
+    category: categories["dialog"],
   },
   {
     name: "dialog-05",
@@ -2941,8 +3033,7 @@ export const components = [
         target: "components/shadcn-space/dialog/dialog-05.tsx",
       },
     ],
-    category: categories["dialog"],    
-    isNew: true
+    category: categories["dialog"],
   },
   {
     name: "dialog-06",
@@ -2958,8 +3049,7 @@ export const components = [
         target: "components/shadcn-space/dialog/dialog-06.tsx",
       },
     ],
-    category: categories["dialog"],  
-    isNew: true  
+    category: categories["dialog"], 
   },
   {
     name: "popover-01",
@@ -2975,8 +3065,7 @@ export const components = [
         target: "components/shadcn-space/popover/popover-01.tsx",
       },
     ],
-    category: categories["popover"],    
-    isNew: true
+    category: categories["popover"],
   },
   {
     name: "popover-02",
@@ -2992,8 +3081,7 @@ export const components = [
         target: "components/shadcn-space/popover/popover-02.tsx",
       },
     ],
-    category: categories["popover"],  
-    isNew: true  
+    category: categories["popover"],
   },
   {
     name: "popover-03",
@@ -3009,8 +3097,7 @@ export const components = [
         target: "components/shadcn-space/popover/popover-03.tsx",
       },
     ],
-    category: categories["popover"],    
-    isNew: true
+    category: categories["popover"],
   },
   {
     name: "popover-04",
@@ -3026,8 +3113,7 @@ export const components = [
         target: "components/shadcn-space/popover/popover-04.tsx",
       },
     ],
-    category: categories["popover"],  
-    isNew: true  
+    category: categories["popover"],
   },
   {
     name: "popover-05",
@@ -3043,8 +3129,7 @@ export const components = [
         target: "components/shadcn-space/popover/popover-05.tsx",
       },
     ],
-    category: categories["popover"],  
-    isNew: true  
+    category: categories["popover"],
   },
   {
     name: "popover-06",
@@ -3060,8 +3145,7 @@ export const components = [
         target: "components/shadcn-space/popover/popover-06.tsx",
       },
     ],
-    category: categories["popover"], 
-    isNew: true   
+    category: categories["popover"],  
   },
   {
     name: "slider-01",
@@ -3078,7 +3162,6 @@ export const components = [
       },
     ],
     category: categories["slider"],
-    isNew: true
   },
   {
     name: "slider-02",
@@ -3095,7 +3178,6 @@ export const components = [
       },
     ],
     category: categories["slider"],
-    isNew: true
   },
   {
     name: "slider-03",
@@ -3112,7 +3194,23 @@ export const components = [
       },
     ],
     category: categories["slider"],
-    isNew: true
+  },
+  {
+    name: "slider-04",
+    title: "Slider 04 - Modern Volume",
+    description:
+      "A sleek volume slider featuring a bold track design, custom vertical thumb, and smooth percentage transitions with NumberFlow.",
+    type: "registry:component",
+    registryDependencies: ["slider"],
+    dependencies: ["@number-flow/react"],
+    files: [
+      {
+        path: "src/components/shadcn-space/slider/slider-04.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/slider/slider-04.tsx",
+      },
+    ],
+    category: categories["slider"],
   },
   {
     name: "skeleton-01",
@@ -3129,7 +3227,6 @@ export const components = [
       },
     ],
     category: categories["skeleton"],
-    isNew: true,
     isAnimate: true,
   },
   {
@@ -3147,7 +3244,6 @@ export const components = [
       },
     ],
     category: categories["skeleton"],
-    isNew: true,
     isAnimate: true,
   },
   {
@@ -3165,7 +3261,6 @@ export const components = [
       },
     ],
     category: categories["skeleton"],
-    isNew: true,
     isAnimate: true,
   },
   {
@@ -3183,7 +3278,6 @@ export const components = [
       },
     ],
     category: categories["spinner"],
-    isNew: true,
   },
   {
     name: "spinner-02",
@@ -3200,7 +3294,6 @@ export const components = [
       },
     ],
     category: categories["spinner"],
-    isNew: true,
   },
   {
     name: "spinner-03",
@@ -3217,7 +3310,6 @@ export const components = [
       },
     ],
     category: categories["spinner"],
-    isNew: true,
   },
   {
     name: "spinner-04",
@@ -3234,7 +3326,6 @@ export const components = [
       },
     ],
     category: categories["spinner"],
-    isNew: true,
   },
   {
     name: "spinner-05",
@@ -3251,7 +3342,6 @@ export const components = [
       },
     ],
     category: categories["spinner"],
-    isNew: true,
   },
   {
     name: "spinner-06",
@@ -3268,7 +3358,23 @@ export const components = [
       },
     ],
     category: categories["spinner"],
-    isNew: true,
+  },
+  {
+    name: "spinner-07",
+    title: "Spinner 07 - Orbital Spinner",
+    description:
+      "A central core with three orbiting rings that spin in opposite directions with varying opacity and size.",
+    type: "registry:component",
+    registryDependencies: [],
+    dependencies: ["motion"],
+    files: [
+      {
+        path: "src/components/shadcn-space/spinner/spinner-07.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/spinner/spinner-07.tsx",
+      },
+    ],
+    category: categories["spinner"],
   },
   {
     name: "sonner-01",
@@ -3285,7 +3391,6 @@ export const components = [
       },
     ],
     category: categories["sonner"],
-    isNew: true,
   },
   {
     name: "sonner-02",
@@ -3302,7 +3407,6 @@ export const components = [
       },
     ],
     category: categories["sonner"],
-    isNew: true,
   },
   {
     name: "sonner-03",
@@ -3316,6 +3420,41 @@ export const components = [
         path: "src/components/shadcn-space/sonner/sonner-03.tsx",
         type: "registry:component",
         target: "components/shadcn-space/sonner/sonner-03.tsx",
+      },
+    ],
+    category: categories["sonner"],
+  },
+  {
+    name: "sonner-04",
+    title: "Sonner 04 - Custom PR Merge",
+    description:
+      "A premium custom toast notification for Pull Request merge flows with approval avatars.",
+    type: "registry:component",
+    registryDependencies: ["button", "sonner", "separator", "avatar"],
+    dependencies: ["lucide-react"],
+    files: [
+      {
+        path: "src/components/shadcn-space/sonner/sonner-04.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/sonner/sonner-04.tsx",
+      },
+    ],
+    category: categories["sonner"],
+    isNew: true,
+  },
+  {
+    name: "sonner-05",
+    title: "Sonner 05 - Custom Sync Status",
+    description:
+      "A clean, minimal toast notification showing active repository sync status.",
+    type: "registry:component",
+    registryDependencies: ["button", "sonner", "separator"],
+    dependencies: ["lucide-react"],
+    files: [
+      {
+        path: "src/components/shadcn-space/sonner/sonner-05.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/sonner/sonner-05.tsx",
       },
     ],
     category: categories["sonner"],
@@ -3336,7 +3475,6 @@ export const components = [
       },
     ],
     category: categories["pagination"],
-    isNew: true,
   },
   {
     name: "pagination-02",
@@ -3353,7 +3491,6 @@ export const components = [
       },
     ],
     category: categories["pagination"],
-    isNew: true,
   },
   {
     name: "pagination-03",
@@ -3370,7 +3507,6 @@ export const components = [
       },
     ],
     category: categories["pagination"],
-    isNew: true,
   },
   {
     name: "scroll-area-01",
@@ -3387,7 +3523,6 @@ export const components = [
       },
     ],
     category: categories["scroll-area"],
-    isNew: true,
   },
   {
     name: "scroll-area-02",
@@ -3404,7 +3539,6 @@ export const components = [
       },
     ],
     category: categories["scroll-area"],
-    isNew: true,
   },
   {
     name: "scroll-area-03",
@@ -3421,7 +3555,6 @@ export const components = [
       },
     ],
     category: categories["scroll-area"],
-    isNew: true,
   },
   {
     name: "input-mask-01",
@@ -3438,7 +3571,6 @@ export const components = [
       },
     ],
     category: categories["input-mask"],
-    isNew: true,
   },
   {
     name: "input-mask-02",
@@ -3455,7 +3587,6 @@ export const components = [
       },
     ],
     category: categories["input-mask"],
-    isNew: true,
   },
   {
     name: "input-mask-03",
@@ -3472,7 +3603,6 @@ export const components = [
       },
     ],
     category: categories["input-mask"],
-    isNew: true,
   },
   {
     name: "collapsible-01",
@@ -3489,7 +3619,6 @@ export const components = [
       },
     ],
     category: categories["collapsible"],
-    isNew: true,
   },
   {
     name: "collapsible-02",
@@ -3506,7 +3635,6 @@ export const components = [
       },
     ],
     category: categories["collapsible"],
-    isNew: true,
   },
   {
     name: "collapsible-03",
@@ -3523,7 +3651,6 @@ export const components = [
       },
     ],
     category: categories["collapsible"],
-    isNew: true,
   },
   {
     name: "progress-01",
@@ -3540,7 +3667,6 @@ export const components = [
       },
     ],
     category: categories["progress"],
-    isNew: true,
   },
   {
     name: "progress-02",
@@ -3557,7 +3683,6 @@ export const components = [
       },
     ],
     category: categories["progress"],
-    isNew: true,
   },
   {
     name: "progress-03",
@@ -3574,6 +3699,177 @@ export const components = [
       },
     ],
     category: categories["progress"],
+  },
+  {
+    name: "progress-04",
+    title: "Progress 04 - Shimmer Status Progress",
+    description:
+      "Animated progressbar with real-time text updates, smooth entrance and exit animations, and a polished UI.",
+    type: "registry:component",
+    registryDependencies: ["progress"],
+    dependencies: ["motion", "lucide-react"],
+    files: [
+      {
+        path: "src/components/shadcn-space/progress/progress-04.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/progress/progress-04.tsx",
+      },
+    ],
+    category: categories["progress"],
+    isAnimate: true,
+  },
+  {
+    name: "input-otp-01",
+    title: "Input OTP-01 - Default",
+    description: "Default input OTP component",
+    type: "registry:component",
+    registryDependencies: ["input-otp"],
+    dependencies: [],
+    files: [
+      {
+        path: "src/components/shadcn-space/input-otp/input-otp-01.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/input-otp/input-otp-01.tsx",
+      },
+    ],
+    category: categories["input-otp"],
+    isNew: true,
+  },
+  {
+    name: "input-otp-02",
+    title: "Input OTP-02 - Digits Only",
+    description: "Input OTP component with pattern to allow only digits",
+    type: "registry:component",
+    registryDependencies: ["input-otp", "field"],
+    dependencies: [],
+    files: [
+      {
+        path: "src/components/shadcn-space/input-otp/input-otp-02.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/input-otp/input-otp-02.tsx",
+      },
+    ],
+    category: categories["input-otp"],
+    isNew: true,
+  },
+  {
+    name: "input-otp-03",
+    title: "Input OTP-03 - With Separator",
+    description: "Input OTP component with separator between segments",
+    type: "registry:component",
+    registryDependencies: ["input-otp"],
+    dependencies: [],
+    files: [
+      {
+        path: "src/components/shadcn-space/input-otp/input-otp-03.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/input-otp/input-otp-03.tsx",
+      },
+    ],
+    category: categories["input-otp"],
+    isNew: true,
+  },
+  {
+    name: "input-otp-04",
+    title: "Input OTP-04 - Disabled",
+    description: "Input OTP component in disabled state",
+    type: "registry:component",
+    registryDependencies: ["input-otp"],
+    dependencies: [],
+    files: [
+      {
+        path: "src/components/shadcn-space/input-otp/input-otp-04.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/input-otp/input-otp-04.tsx",
+      },
+    ],
+    category: categories["input-otp"],
+    isNew: true,
+  },
+  {
+    name: "input-otp-05",
+    title: "Input OTP-05 - Controlled",
+    description: "Input OTP component in controlled state",
+    type: "registry:component",
+    registryDependencies: ["input-otp"],
+    dependencies: [],
+    files: [
+      {
+        path: "src/components/shadcn-space/input-otp/input-otp-05.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/input-otp/input-otp-05.tsx",
+      },
+    ],
+    category: categories["input-otp"],
+    isNew: true,
+  },
+  {
+    name: "input-otp-06",
+    title: "Input OTP-06 - Invalid",
+    description: "Input OTP component in invalid state",
+    type: "registry:component",
+    registryDependencies: ["input-otp", "field"],
+    dependencies: [],
+    files: [
+      {
+        path: "src/components/shadcn-space/input-otp/input-otp-06.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/input-otp/input-otp-06.tsx",
+      },
+    ],
+    category: categories["input-otp"],
+    isNew: true,
+  },
+  {
+    name: "input-otp-07",
+    title: "Input OTP-07 - Four Digits",
+    description: "Input OTP component with pattern to allow only 4 digits",
+    type: "registry:component",
+    registryDependencies: ["input-otp"],
+    dependencies: [],
+    files: [
+      {
+        path: "src/components/shadcn-space/input-otp/input-otp-07.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/input-otp/input-otp-07.tsx",
+      },
+    ],
+    category: categories["input-otp"],
+    isNew: true,
+  },
+  {
+    name: "input-otp-08",
+    title: "Input OTP-08 - Alphanumeric",
+    description:
+      "Input OTP component with pattern to allow only alphanumeric characters",
+    type: "registry:component",
+    registryDependencies: ["input-otp"],
+    dependencies: [],
+    files: [
+      {
+        path: "src/components/shadcn-space/input-otp/input-otp-08.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/input-otp/input-otp-08.tsx",
+      },
+    ],
+    category: categories["input-otp"],
+    isNew: true,
+  },
+  {
+    name: "input-otp-09",
+    title: "Input OTP-09 - Animated",
+    description: "Input OTP component with animation",
+    type: "registry:component",
+    registryDependencies: ["input-otp"],
+    dependencies: ["motion"],
+    files: [
+      {
+        path: "src/components/shadcn-space/input-otp/input-otp-09.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/input-otp/input-otp-09.tsx",
+      },
+    ],
+    category: categories["input-otp"],
     isNew: true,
   },
 ];
