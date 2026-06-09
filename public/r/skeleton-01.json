@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "skeleton-01",
-  "type": "registry:component",
   "title": "Skeleton 01 - Profile with Stats",
   "description": "Animated profile skeleton with staggered fade-up motion on each element — avatar, text lines, stats grid, and CTA button.",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/skeleton/skeleton-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "collapsible-02",
-  "type": "registry:component",
   "title": "Collapsible 02 - Dashboard Sidebar",
   "description": "A dashboard sidebar with collapsible nav sections, active item highlighting, notification badges, and a user profile footer.",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/collapsible/collapsible-02.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

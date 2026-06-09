@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "scroll-area-03",
-  "type": "registry:component",
   "title": "Scroll Area 03 - Vertical Image Gallery",
   "description": "A vertically scrollable image gallery with fade mask edges, built with ScrollArea and project portfolio images.",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/scroll-area/scroll-area-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "date-picker-01",
-  "type": "registry:component",
   "title": "Date Picker-01 - Data & Time Picker",
   "description": "A professional appointment booking card with date and time range selection.",
   "dependencies": [
@@ -22,5 +21,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/date-picker/date-picker-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

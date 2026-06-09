@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "spinner-05",
-  "type": "registry:component",
   "title": "Spinner 05 - Ellipsis",
   "description": "Three dots with staggered scale and opacity wave animation.",
   "dependencies": [],
@@ -13,5 +12,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/spinner/spinner-05.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

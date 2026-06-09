@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "progress-03",
-  "type": "registry:component",
   "title": "Progress 03 - Skills Dashboard",
   "description": "A professional skills overview with color-coded, animated progress bars and entrance effects.",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/progress/progress-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

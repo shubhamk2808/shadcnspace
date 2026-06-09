@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "portfolio-01",
-  "type": "registry:block",
   "title": "Portfolio 01 - Clean Portfolio Grid",
   "description": "A modern portfolio section displaying featured projects with tags, visuals, and categories, ideal for agencies or freelancers to showcase real-world transformations, expertise, and design impact.",
   "dependencies": [
@@ -24,5 +23,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/portfolio-01/portfolio.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

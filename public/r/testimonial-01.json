@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "testimonial-01",
-  "type": "registry:block",
   "title": "Testimonial 01 - Bentro Grid Testimonials",
   "description": "A multi card testimonial section combining customer quotes, imagery, and performance stats, ideal for showcasing social proof, building trust, and reinforcing brand credibility across product or agency websites.",
   "dependencies": [
@@ -24,5 +23,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/testimonial-01/testimonial.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "card-13",
-  "type": "registry:component",
   "title": "Card-13 - Contributed Card",
   "description": "Card component",
   "dependencies": [
@@ -19,5 +18,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/card/card-13.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

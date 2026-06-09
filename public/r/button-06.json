@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "button-06",
-  "type": "registry:component",
   "title": "Button-06 - Animated Border",
   "description": "Animated Border button component",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/button/button-06.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

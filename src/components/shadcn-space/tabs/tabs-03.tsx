@@ -74,7 +74,7 @@ const tabs: TabsWithIconProps["tabs"] = [
 const TabsWithIconDemo = () => {
   return (
     <div className="w-full max-w-md">
-      <Tabs defaultValue="explore" className="gap-4">
+      <Tabs defaultValue={tabs[0].value} className="flex flex-col gap-4">
         <TabsList>
           {tabs.map(({ icon: Icon, name, value }) => (
             <TabsTrigger

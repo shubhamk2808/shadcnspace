@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-12",
-  "type": "registry:component",
   "title": "Input-12 - Input with end button",
   "description": "Input component",
   "dependencies": [],
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input/input-12.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

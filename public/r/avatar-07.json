@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "avatar-07",
-  "type": "registry:component",
   "title": "Avatar-07 - Selectable Avatar",
   "description": "Animated selectable avatar button with optional badge and name label",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/avatar/avatar-07.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

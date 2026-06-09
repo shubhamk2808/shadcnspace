@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "textarea-07",
-  "type": "registry:component",
   "title": "Textarea-07 - Textarea with floating label",
   "description": "Textarea component",
   "dependencies": [],
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/textarea/textarea-07.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

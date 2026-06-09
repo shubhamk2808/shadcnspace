@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "calendar-01",
-  "type": "registry:component",
   "title": "Calendar 01 - Standard calendar",
   "description": "Calendar component",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/calendar/calendar-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

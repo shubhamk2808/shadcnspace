@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-mask-03",
-  "type": "registry:component",
   "title": "Input Mask 03 - MAC Address",
   "description": "MAC address input mask with ##:##:##:##:##:## format.",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input-mask/input-mask-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

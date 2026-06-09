@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "accordion-05",
-  "type": "registry:component",
   "title": "Accordion-05 - Media",
   "description": "Accordion with icon trigger, description, and an image revealed on open",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/accordion/accordion-05.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

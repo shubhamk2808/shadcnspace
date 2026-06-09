@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "tooltip-01",
-  "type": "registry:component",
   "title": "Tooltip-01 - Hover Blog Card",
   "description": "Tooltip component",
   "dependencies": [
@@ -19,5 +18,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/tooltip/tooltip-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

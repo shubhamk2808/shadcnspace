@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "button-group-04",
-  "type": "registry:component",
   "title": "Button Group-04 - Separator",
   "description": "Button group with separators",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/button-group/button-group-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

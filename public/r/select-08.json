@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "select-08",
-  "type": "registry:component",
   "title": "Select-08 - Select with leading text",
   "description": "Select component",
   "dependencies": [],
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/select/select-08.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

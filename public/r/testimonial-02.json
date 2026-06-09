@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "testimonial-02",
-  "type": "registry:block",
   "title": "Testimonial 02 - Testimonial Slider Showcase",
   "description": "A clean testimonial slider with customer photo, detailed quote, navigation controls, and partner logos—perfect for highlighting success stories and building instant trust on landing pages.",
   "dependencies": [
@@ -43,5 +42,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/animations/marquee.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

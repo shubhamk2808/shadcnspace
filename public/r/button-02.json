@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "button-02",
-  "type": "registry:component",
   "title": "Button-02 - Shiny Text",
   "description": "Shiny Text button component",
   "dependencies": [],
@@ -21,5 +20,6 @@
       "type": "registry:style",
       "target": "components/shadcn-space/button/button-02.css"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

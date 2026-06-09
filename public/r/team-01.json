@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "team-01",
-  "type": "registry:block",
   "title": "Team 01 - Creative Team Showcase",
   "description": "A vibrant team section featuring profile cards with roles and social links, perfect for agencies or startups to humanize their brand, highlight talent, and build authentic connections.",
   "dependencies": [
@@ -23,5 +22,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/team-01/team.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "services-02",
-  "type": "registry:block",
   "title": "Services 02 - Services Animated Block",
   "description": "A premium dark mode services section with interactive list, visual preview, and detailed descriptions, ideal for creative agencies to showcase capabilities while maintaining a bold, modern brand presence.",
   "dependencies": [
@@ -24,5 +23,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/services-02/services.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "progress-01",
-  "type": "registry:component",
   "title": "Progress 01 - Simple Upload",
   "description": "A minimal, animated progress bar with status text and a reset action.",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/progress/progress-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

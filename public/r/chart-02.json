@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "chart-02",
-  "type": "registry:block",
   "title": "Chart 02 - Earnings Pie Chart",
   "description": "A clean donut chart widget summarizing total earnings with source-wise breakdown, perfect for admin dashboards to compare revenue streams, monitor growth, and highlight performance insights.",
   "dependencies": [
@@ -25,5 +24,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/chart-02/chart.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

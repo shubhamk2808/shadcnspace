@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "product-category-01",
-  "type": "registry:block",
   "title": "Product Category 01 - Horizontal List",
   "description": "A horizontal category list displaying product groups with icons, item counts, and quick links, enabling users to scan categories quickly and navigate products efficiently.",
   "dependencies": [
@@ -22,5 +21,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/product-category-01/product-category.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

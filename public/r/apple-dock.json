@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "apple-dock",
-  "type": "registry:component",
   "title": "Default",
   "description": "Apple Dock component",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/apple-dock/apple-dock.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

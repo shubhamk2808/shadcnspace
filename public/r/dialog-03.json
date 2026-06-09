@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "dialog-03",
-  "type": "registry:component",
   "title": "Dialog 03 - Slide from Left",
   "description": "Dialog that slides in from the left — ideal for subscription forms and quick inputs.",
   "dependencies": [
@@ -19,5 +18,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/dialog/dialog-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

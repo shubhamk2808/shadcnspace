@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "animated-text-04",
-  "type": "registry:component",
   "title": "Animated Text-04 - Rolling Text",
   "description": "Animated Rolling Text component",
   "dependencies": [],
@@ -13,5 +12,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/animated-text/animated-text-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

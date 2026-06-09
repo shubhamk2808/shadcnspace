@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "avatar-04",
-  "type": "registry:component",
   "title": "Avatar-04 - Border",
   "description": "Border avatar component",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/avatar/avatar-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

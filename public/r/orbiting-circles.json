@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "orbiting-circles",
-  "type": "registry:component",
   "title": "Default",
   "description": "Orbiting Circles component",
   "dependencies": [
@@ -21,5 +20,6 @@
       "type": "registry:style",
       "target": "components/shadcn-space/orbiting-circles/orbiting-circles.css"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

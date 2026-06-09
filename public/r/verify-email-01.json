@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "verify-email-01",
-  "type": "registry:block",
   "title": "Verify Email 01 - Email Verification Page",
   "description": "A clean email verification screen that confirms account activation, guides users to check their inbox, and offers resend functionality for a smooth onboarding experience.",
   "dependencies": [
@@ -25,5 +24,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/verify-email-01/verify-email.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

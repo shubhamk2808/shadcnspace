@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "button-07",
-  "type": "registry:component",
   "title": "Button-07 - Social",
   "description": "Social button component",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/button/button-07.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

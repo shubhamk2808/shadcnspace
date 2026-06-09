@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "spinner-04",
-  "type": "registry:component",
   "title": "Spinner 04 - Circle Filled",
   "description": "Circular arc spinner with a dim background ring and rotating filled arc.",
   "dependencies": [],
@@ -13,5 +12,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/spinner/spinner-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

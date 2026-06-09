@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "scroll-area-01",
-  "type": "registry:component",
   "title": "Scroll Area 01 - Custom File Explorer",
   "description": "A scrollable file explorer list with custom icons, badges, and smooth scroll area performance.",
   "dependencies": [
@@ -19,5 +18,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/scroll-area/scroll-area-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

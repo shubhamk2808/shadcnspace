@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "button-17",
-  "type": "registry:component",
   "title": "Button-17 - Blob Fill",
   "description": "Circle blob expands from bottom center on hover to fill the button",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/button/button-17.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

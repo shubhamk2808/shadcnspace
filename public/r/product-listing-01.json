@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "product-listing-01",
-  "type": "registry:block",
   "title": "Product Listing 01 - Multi Column Grid",
   "description": "A multi-column layout featuring product cards with images, reviews, and pricing details, helping users scan, compare, and select products quickly.",
   "dependencies": [
@@ -31,5 +30,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/product-listing-01/product-card.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "alert-02",
-  "type": "registry:component",
   "title": "Alert-02 - Alert with User Detail",
   "description": "Alert component",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/alert/alert-02.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

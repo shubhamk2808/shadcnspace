@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "register-01",
-  "type": "registry:block",
   "title": "Register 01 - Simple & Secure Signup Page",
   "description": "A streamlined signup page with Google and GitHub authentication, clean form fields, and conversion-focused layout, perfect for SaaS onboarding built with shadcn UI.",
   "dependencies": [
@@ -26,5 +25,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/register-01/register.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

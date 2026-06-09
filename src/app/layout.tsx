@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
   title: "Craft modern UIs faster with Shadcn components, blocks & templates",
@@ -78,6 +79,7 @@ export default function RootLayout({
         </style>
       </head>
       <body>
+        <Toaster position="top-center" />
         <TooltipProvider>
           {children}
         </TooltipProvider>

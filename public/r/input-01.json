@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-01",
-  "type": "registry:component",
   "title": "Input-01 - Input with date",
   "description": "Input component",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input/input-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

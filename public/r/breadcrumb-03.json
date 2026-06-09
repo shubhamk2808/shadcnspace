@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "breadcrumb-03",
-  "type": "registry:component",
   "title": "breadcrumb-03 - Breadcrumb",
   "description": "Breadcrumb component",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/breadcrumb/breadcrumb-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

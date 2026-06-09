@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "widget-01",
-  "type": "registry:block",
   "title": "Widget 01 - Analytics Overview Widget",
   "description": "A compact analytics widget displaying earnings and expenses with growth indicators, perfect for admin dashboards to provide quick financial insights without overwhelming the interface.",
   "dependencies": [
@@ -25,5 +24,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/widget-01/widget.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

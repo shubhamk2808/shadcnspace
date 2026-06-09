@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "faq-01",
-  "type": "registry:block",
   "title": "FAQ 01 - Expandable FAQ Section",
   "description": "A clean accordion style FAQ section with expandable answers, ideal for agencies or SaaS sites to address common questions, reduce friction, and improve user confidence before conversion.",
   "dependencies": [
@@ -24,5 +23,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/faq-01/faq.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

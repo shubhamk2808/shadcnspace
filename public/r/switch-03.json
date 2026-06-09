@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "switch-03",
-  "type": "registry:component",
   "title": "Switch-03 - Toggle theme",
   "description": "Switch toggle theme component",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/switch/switch-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

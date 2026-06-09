@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "checkbox-02",
-  "type": "registry:component",
   "title": "Checkbox-02 - Checkbox with vertical group",
   "description": "Checkbox component",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/checkbox/checkbox-02.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

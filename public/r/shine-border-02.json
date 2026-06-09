@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "shine-border-02",
-  "type": "registry:component",
   "title": "Shine Border-02 - Security Card",
   "description": "A laser scanner shine border with a vertical gradient sweep animation wrapping an identity verification card.",
   "dependencies": [
@@ -20,5 +19,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/shine-border/shine-border-02.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

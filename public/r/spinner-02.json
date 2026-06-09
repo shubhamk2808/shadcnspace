@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "spinner-02",
-  "type": "registry:component",
   "title": "Spinner 02 - Throbber",
   "description": "Classic 8-bar radial throbber with stepped rotation and opacity gradient.",
   "dependencies": [],
@@ -13,5 +12,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/spinner/spinner-02.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "slider-01",
-  "type": "registry:component",
   "title": "Slider 01 - Volume Control",
   "description": "Volume control slider with volume icons and smooth fill animation.",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/slider/slider-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "radio-group-06",
-  "type": "registry:component",
   "title": "Radio Group-06 - Radio Group with tree",
   "description": "Radio Group component",
   "dependencies": [],
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/radio-group/radio-group-06.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

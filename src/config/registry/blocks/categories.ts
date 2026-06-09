@@ -431,18 +431,6 @@ export const categories = {
       "Shadcn UI verify email blocks for email verification flows. Use OTP-based verification with code input, resend options, and clear feedback for authentication and onboarding.",
   },
 
-  dropdown: {
-    name: "dropdown",
-    title: "Dropdown",
-    icon: "mdi:view-dashboard-outline",
-    image: "https://images.shadcnspace.com/assets/blocks-images/dashboard/dropdown-blocks.webp",
-    isHome: false,
-    metaKeywords: "shadcn dropdown",
-    metaTitle: "Shadcn Dropdown Menu",
-    metaDescription:
-      "Shadcn UI dropdown menu component that displays a list of actions or options triggered by a button. Customizable and accessible for dashboard UI patterns.",
-  },
-
   forms: {
     name: "forms",
     title: "Forms",
