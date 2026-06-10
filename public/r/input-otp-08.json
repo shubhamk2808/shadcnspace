@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-otp-08",
-  "type": "registry:component",
   "title": "Input OTP-08 - Alphanumeric",
   "description": "Input OTP component with pattern to allow only alphanumeric characters",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input-otp/input-otp-08.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

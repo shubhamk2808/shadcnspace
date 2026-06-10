@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "services-01",
-  "type": "registry:block",
   "title": "Services 01 - Creative Services Overview",
   "description": "A colorful services section with icon cards and dual CTAs, perfect for agencies to present core offerings, guide visitors to portfolios, and drive collaboration with clear next steps.",
   "dependencies": [
@@ -26,5 +25,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/services-01/services.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

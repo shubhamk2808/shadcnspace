@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "bentogrid-01",
-  "type": "registry:block",
   "title": "Bento Grid 01 - Bento Grid Section",
   "description": "A visually rich bento grid that brings the world closer—highlighting stunning locations, cultural moments, and unforgettable experiences in a dynamic, bite-sized layout.",
   "dependencies": [
@@ -34,5 +33,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/bento-grid-01/ReminderAnimation.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

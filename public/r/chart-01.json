@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "chart-01",
-  "type": "registry:block",
   "title": "Chart 01 - Sales Performance Bar Chart",
   "description": "An interactive stacked bar chart displaying monthly earnings, profit, and expenses, ideal for admin dashboards to visualize financial trends, track growth, and support data-driven business decisions.",
   "dependencies": [
@@ -25,5 +24,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/chart-01/chart.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-otp-02",
-  "type": "registry:component",
   "title": "Input OTP-02 - Digits Only",
   "description": "Input OTP component with pattern to allow only digits",
   "dependencies": [],
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input-otp/input-otp-02.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

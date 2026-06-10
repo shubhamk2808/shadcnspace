@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "tooltip-02",
-  "type": "registry:component",
   "title": "Tooltip-02 - Content Tooltip",
   "description": "Tooltip component",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/tooltip/tooltip-02.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

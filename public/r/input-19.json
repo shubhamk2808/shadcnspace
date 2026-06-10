@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-19",
-  "type": "registry:component",
   "title": "Input-19 - With Animated Checkmark",
   "description": "Input component",
   "dependencies": [
@@ -20,5 +19,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input/input-19.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

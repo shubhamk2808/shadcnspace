@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "tabs-01",
-  "type": "registry:component",
   "title": "Tabs-01 - Animated",
   "description": "Tabs component",
   "dependencies": [
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/tabs/tabs-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "sonner-03",
-  "type": "registry:component",
   "title": "Sonner 03 - Invite Member",
   "description": "A clean, minimal toast notification for inviting a new member to a project.",
   "dependencies": [],
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/sonner/sonner-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

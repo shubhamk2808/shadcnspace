@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "topbar-01",
-  "type": "registry:block",
   "title": "Topbar 01",
   "description": "A simple topbar block",
   "dependencies": [
@@ -34,5 +33,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/topbar-01/dropdown-profile.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

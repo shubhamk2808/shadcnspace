@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "scroll-area-02",
-  "type": "registry:component",
   "title": "Scroll Area 02 - Horizontal Profile Stories",
   "description": "A horizontally scrollable avatar stories bar with active status indicators, built with ScrollArea and ScrollBar.",
   "dependencies": [],
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/scroll-area/scroll-area-02.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

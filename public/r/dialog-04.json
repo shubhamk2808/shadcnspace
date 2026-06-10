@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "dialog-04",
-  "type": "registry:component",
   "title": "Dialog 04 - Slide from Right",
   "description": "Dialog that slides in from the right — ideal for user profiles and detail panels.",
   "dependencies": [
@@ -19,5 +18,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/dialog/dialog-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

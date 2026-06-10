@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "number-ticker-05",
-  "type": "registry:component",
   "title": "Number Ticker-05 - Real-Time Metrics Counter",
   "description": "A high-fidelity statistics counter for displaying large numbers clearly. Designed for user counts, page views, or total downloads with an 'active' pulse indicator.",
   "dependencies": [
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/number-ticker/number-ticker-05.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

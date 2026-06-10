@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "file-upload-01",
-  "type": "registry:component",
   "title": "File Upload-01 - Animated File Upload",
   "description": "File Upload component",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/file-upload/file-upload-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-10",
-  "type": "registry:component",
   "title": "Input-10 - Input with clear button",
   "description": "Input component",
   "dependencies": [
@@ -19,5 +18,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input/input-10.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

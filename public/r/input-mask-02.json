@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-mask-02",
-  "type": "registry:component",
   "title": "Input Mask 02 - Card Expiry Date",
   "description": "Card expiry date input mask with MM/YY format.",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input-mask/input-mask-02.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

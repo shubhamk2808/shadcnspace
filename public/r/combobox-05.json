@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "combobox-05",
-  "type": "registry:component",
   "title": "Combobox-05 - Users",
   "description": "Combobox component",
   "dependencies": [
@@ -20,5 +19,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/combobox/combobox-05.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

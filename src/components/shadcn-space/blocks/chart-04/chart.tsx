@@ -1,7 +1,7 @@
 "use client";
 
 import { Card, CardHeader, CardTitle } from "@/components/ui/card";
-import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip, Cell, TooltipProps, } from "recharts";
+import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip, Cell } from "recharts";
 import { TrendingUp, EllipsisVertical } from 'lucide-react';
 import { Badge } from "@/components/ui/badge";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
@@ -24,7 +24,11 @@ const CustomTooltip = ({
     active,
     payload,
     label,
-}: TooltipProps<number, string>) => {
+}: {
+    active?: boolean;
+    payload?: Array<{ value: number; name: string }>;
+    label?: string;
+}) => {
     if (!active || !payload || !payload.length) return null;
 
     return (

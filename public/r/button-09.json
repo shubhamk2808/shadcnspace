@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "button-09",
-  "type": "registry:component",
   "title": "Button-09 - Outline With Icon",
   "description": "Outline With Icon button component",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/button/button-09.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

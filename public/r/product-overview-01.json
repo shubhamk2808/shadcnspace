@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "product-overview-01",
-  "type": "registry:block",
   "title": "Product Overview 01 - For Skincare Product",
   "description": "A structured skincare layout featuring image grid previews, descriptive content, pricing details, size selection, and collapsible sections for ingredients, shipping, and product overview information.",
   "dependencies": [
@@ -33,5 +32,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/product-overview-01/product-overview.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

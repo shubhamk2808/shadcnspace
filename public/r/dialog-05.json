@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "dialog-05",
-  "type": "registry:component",
   "title": "Dialog 05 - Zoom In",
   "description": "Dialog that scales up from the center — ideal for success states and celebrations.",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/dialog/dialog-05.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

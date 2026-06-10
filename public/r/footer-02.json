@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "footer-02",
-  "type": "registry:block",
   "title": "Footer 02 - Dark Conversion Footer",
   "description": "A bold dark themed footer with newsletter signup, strong contact CTA, navigation links, and legal pages, ideal for real estate or SaaS websites to drive engagement at the page end.",
   "dependencies": [],
@@ -23,5 +22,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/footer-02/footer.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

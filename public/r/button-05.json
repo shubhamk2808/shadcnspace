@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "button-05",
-  "type": "registry:component",
   "title": "Button-05 - Get Figma File",
   "description": "Get Figma File button component",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/button/button-05.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

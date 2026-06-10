@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "combobox-03",
-  "type": "registry:component",
   "title": "Combobox-03 - With Add Button",
   "description": "Combobox component",
   "dependencies": [
@@ -19,5 +18,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/combobox/combobox-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

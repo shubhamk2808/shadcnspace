@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "cta-01",
-  "type": "registry:block",
   "title": "CTA 01 - Gradient Call-to-Action Banner",
   "description": "A minimal full width CTA section with soft gradient background, persuasive headline, and primary action button, perfect for converting visitors into leads at the end of any page.",
   "dependencies": [
@@ -24,5 +23,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/cta-01/cta.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

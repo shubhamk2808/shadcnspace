@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "switch-04",
-  "type": "registry:component",
   "title": "Switch-04 - With Description",
   "description": "Switch component",
   "dependencies": [],
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/switch/switch-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -228,7 +228,7 @@ export const categories = {
     name: "combobox",
     title: "Combobox",
     metaKeyword: "shadcn combobox",
-    metaTitle: "6+ Shadcn Combobox Component for React & Next.js",
+    metaTitle: "{count}+ Shadcn Combobox Component for React & Next.js",
     metaDescription:
       "Add a searchable and accessible Shadcn Combobox to your React or Next.js project. Supports single and multi-select, async search, and full Tailwind CSS customization.",
   },
@@ -237,7 +237,7 @@ export const categories = {
     name: "carousel",
     title: "Carousel",
     metaKeyword: "shadcn carousel",
-    metaTitle: "4+ Shadcn Carousel Components for React & Next.js",
+    metaTitle: "{count}+ Shadcn Carousel Components for React & Next.js",
     metaDescription:
       "Create smooth and responsive sliders using our Shadcn Carousel component. Supports touch gestures, keyboard navigation, and flexible layout control with Tailwind CSS.",
   },
@@ -246,31 +246,31 @@ export const categories = {
     name: "alert",
     title: "Alert",
     metaKeyword: "shadcn alert",
-    metaTitle: "5+ Shadcn Alert Components for React & Next.js",
-    metaDescription: "Show important messages using 5+ Shadcn Alert components to display success, error, warning, and info messages in React and Next.js forms, dashboards, and admin panels."
+    metaTitle: "{count}+ Shadcn Alert Components for React & Next.js",
+    metaDescription: "Show important messages using {count}+ Shadcn Alert components to display success, error, warning, and info messages in React and Next.js forms, dashboards, and admin panels."
   },
   
   "breadcrumb": {
     name: "breadcrumb",
     title: "Breadcrumb",
     metaKeyword: "shadcn breadcrumb",
-    metaTitle: "5+ Shadcn Breadcrumb Navigation Components",
-    metaDescription: "Discover 5+ Shadcn Breadcrumb components to create clear navigation paths in React and Next.js applications. Simple, customizable, and developer-friendly."
+    metaTitle: "{count}+ Shadcn Breadcrumb Navigation Components",
+    metaDescription: "Discover {count}+ Shadcn Breadcrumb components to create clear navigation paths in React and Next.js applications. Simple, customizable, and developer-friendly."
   },
 
   "dialog": {
     name: "dialog",
     title: "Dialog",
     metaKeyword: "shadcn dialog",
-    metaTitle: "6+ Shadcn Dialog Components for React & Next.js",
-    metaDescription: "Explore 6+ Shadcn Dialog components with slide, zoom, and fade animations. Clean, accessible modal dialogs for confirmations, forms, notifications, and more.",
+    metaTitle: "{count}+ Shadcn Dialog Components for React & Next.js",
+    metaDescription: "Explore {count}+ Shadcn Dialog components with slide, zoom, and fade animations. Clean, accessible modal dialogs for confirmations, forms, notifications, and more.",
   },
 
   "popover": {
     name: "popover",
     title: "Popover",
     metaKeyword: "shadcn popover",
-    metaTitle: "3+ Shadcn Popover Components for React & Next.js",
+    metaTitle: "{count}+ Shadcn Popover Components for React & Next.js",
     metaDescription: "Explore our Shadcn Popover components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
   },
 
@@ -278,7 +278,7 @@ export const categories = {
     name: "slider",
     title: "Slider",
     metaKeyword: "shadcn slider",
-    metaTitle: "3+ Shadcn Slider Components for React & Next.js",
+    metaTitle: "{count}+ Shadcn Slider Components for React & Next.js",
     metaDescription: "Explore our Shadcn Slider components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
   },
 
@@ -286,7 +286,7 @@ export const categories = {
     name: "skeleton",
     title: "Skeleton",
     metaKeyword: "shadcn skeleton",
-    metaTitle: "3+ Shadcn skeleton Components for React & Next.js",
+    metaTitle: "{count}+ Shadcn skeleton Components for React & Next.js",
     metaDescription: "Explore our Shadcn Skeleton components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
   },
 
@@ -294,7 +294,7 @@ export const categories = {
     name: "spinner",
     title: "Spinner",
     metaKeyword: "shadcn spinner",
-    metaTitle: "6+ Shadcn Spinner Components for React & Next.js",
+    metaTitle: "{count}+ Shadcn Spinner Components for React & Next.js",
     metaDescription: "Explore our Shadcn Spinner components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
   },
 
@@ -302,7 +302,7 @@ export const categories = {
     name: "sonner",
     title: "Sonner",
     metaKeyword: "shadcn sonner",
-    metaTitle: "3+ Shadcn Sonner Components for React & Next.js",
+    metaTitle: "{count}+ Shadcn Sonner Components for React & Next.js",
     metaDescription: "Explore our Shadcn Sonner components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
   },
 
@@ -310,7 +310,7 @@ export const categories = {
     name: "pagination",
     title: "Pagination",
     metaKeyword: "shadcn pagination",
-    metaTitle: "3+ Shadcn Pagination Components for React & Next.js",
+    metaTitle: "{count}+ Shadcn Pagination Components for React & Next.js",
     metaDescription: "Explore our Shadcn Pagination components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
   },
 
@@ -318,7 +318,7 @@ export const categories = {
     name: "scroll-area",
     title: "Scroll Area",
     metaKeyword: "shadcn scroll area",
-    metaTitle: "3+ Shadcn Scroll Area Components for React & Next.js",
+    metaTitle: "{count}+ Shadcn Scroll Area Components for React & Next.js",
     metaDescription: "Explore our Shadcn Scroll Area components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
   },
 
@@ -326,7 +326,7 @@ export const categories = {
     name: "input-mask",
     title: "Input Mask",
     metaKeyword: "shadcn input mask",
-    metaTitle: "3+ Shadcn Input Mask Components for React & Next.js",
+    metaTitle: "{count}+ Shadcn Input Mask Components for React & Next.js",
     metaDescription: "Explore our Shadcn Input Mask components designed for real-world use. Format phone numbers, card expiry dates, MAC addresses, and more with clean masked input fields.",
   },
 
@@ -342,8 +342,16 @@ export const categories = {
     name: "progress",
     title: "Progress",
     metaKeyword: "shadcn progress",
-    metaTitle: "3+ Shadcn Progress Components for React & Next.js",
+    metaTitle: "{count}+ Shadcn Progress Components for React & Next.js",
     metaDescription: "Explore our Shadcn Progress components designed for real-world use. Copy the code, customize it in your way, and use it in dashboards, forms, or any modern web project.",
+  },
+
+  "dropdown-menu": {
+    name: "dropdown-menu",
+    title: "Dropdown Menu",
+    metaKeyword: "shadcn dropdown menu",
+    metaTitle: "{count}+ Shadcn Dropdown Menu Components for React & Next.js",
+    metaDescription: "Explore {count}+ Shadcn Dropdown Menu components with animations, submenus, and custom designs. Create beautiful dropdown menus for navigation, settings, and user profiles in React & Next.js.",
   },
 
   "input-otp": {
@@ -352,5 +360,61 @@ export const categories = {
     metaKeyword: "shadcn input otp",
     metaTitle: "{count}+ Shadcn Input OTP Component Built with React & Tailwind CSS",
     metaDescription: "Discover {count}+ developer-friendly Shadcn Input OTP components built with React and Tailwind CSS for fast and secure verification workflows.",
+  },
+
+  "autocomplete": {
+    name: "autocomplete",
+    title: "Autocomplete",
+    metaKeyword: "shadcn autocomplete",
+    metaTitle: "{count}+ Shadcn Autocomplete Components, Examples & Variants",
+    metaDescription: "Ready-to-use Shadcn Autocomplete components with async search, team member search, icons, and smart suggestions. Built with React, Next.js, Tailwind CSS, Base UI.",
+  },
+
+  "context-menu": {
+    name: "context-menu",
+    title: "Context Menu",
+    metaKeyword: "shadcn context-menu",
+    metaTitle: "{count}+ Shadcn Context Menu Components, Examples & Variants",
+    metaDescription: "Ready-to-use Shadcn Context Menu components featuring right-click actions and animated menus, built with React, Tailwind CSS, Base UI.",
+  },
+
+  "command": {
+    name: "command",
+    title: "Command",
+    metaKeyword: "shadcn command",
+    metaTitle: "{count}+ Shadcn Command Components, Examples & Command Palette Variants",
+    metaDescription: "Discover {count}+ Shadcn UI Command components and command palette variants built with React, Next.js, and Tailwind CSS, featuring Base UI implementations.",
+  },
+
+  "code-block": {
+    name: "code-block",
+    title: "Code Block",
+    metaKeyword: "shadcn code block",
+    metaTitle: "{count}+ Ready-to-Use Shadcn Code Block Components, Examples & Variants",
+    metaDescription: "Explore {count}+ Shadcn Code Block components and examples built with React, Next.js, and Tailwind CSS. Includes multi-file code blocks, language tabs, highlighted lines, install commands, and more.",
+  },
+
+  "kbd": {
+    name: "kbd",
+    title: "KBD",
+    metaKeyword: "shadcn kbd keyboard shortcut",
+    metaTitle: "{count}+ Modern Shadcn KBD Components & Keyboard Shortcut Examples",
+    metaDescription: "Explore our {count}+ Shadcn KBD components designed to display keyboard shortcuts clearly, helping users discover commands and navigate your application faster.",
+  },
+
+  "label": {
+    name: "label",
+    title: "Label",
+    metaKeyword: "shadcn label",
+    metaTitle: "{count}+ Shadcn Label Examples for Textarea, Forms, Inputs & Switches",
+    metaDescription: "Explore {count}+ Shadcn Label components including floating labels, checkbox labels, input labels, switch labels, and textarea labels built with React, Tailwind CSS, Base UI.",
+  },
+
+  "separator": {
+    name: "separator",
+    title: "Separator",
+    metaKeyword: "shadcn separator",
+    metaTitle: "{count}+ Shadcn Separator Components, Examples & Variants",
+    metaDescription: "Explore {count}+ Shadcn Separator components built with React, Tailwind CSS, Base UI. Discover horizontal, vertical, dashed, labeled, gradient, and icon separator examples for modern web projects.",
   }
 } as const;

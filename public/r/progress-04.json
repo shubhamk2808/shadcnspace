@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "progress-04",
-  "type": "registry:component",
   "title": "Progress 04 - Shimmer Status Progress",
   "description": "Animated progressbar with real-time text updates, smooth entrance and exit animations, and a polished UI.",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/progress/progress-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

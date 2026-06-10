@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "card-05",
-  "type": "registry:component",
   "title": "Card-05 - Analytics Card",
   "description": "Card component",
   "dependencies": [],
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/card/card-05.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

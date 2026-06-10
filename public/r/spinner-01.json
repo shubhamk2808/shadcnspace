@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "spinner-01",
-  "type": "registry:component",
   "title": "Spinner 01 - Default",
   "description": "Default shadcn spinner using the Loader2 icon with animate-spin.",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/spinner/spinner-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

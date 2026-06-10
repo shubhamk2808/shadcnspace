@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "sonner-02",
-  "type": "registry:component",
   "title": "Sonner 02 - Delete Project",
   "description": "A clean, minimal toast notification for confirming permanent project deletion.",
   "dependencies": [],
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/sonner/sonner-02.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

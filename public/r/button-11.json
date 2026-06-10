@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "button-11",
-  "type": "registry:component",
   "title": "Button-11 - Cancel",
   "description": "Cancel button component",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/button/button-11.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

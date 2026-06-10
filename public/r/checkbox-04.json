@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "checkbox-04",
-  "type": "registry:component",
   "title": "Checkbox-04 - Checkbox with todo list",
   "description": "Checkbox component",
   "dependencies": [],
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/checkbox/checkbox-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

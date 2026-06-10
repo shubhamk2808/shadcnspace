@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "footer-01",
-  "type": "registry:block",
   "title": "Footer 01 - Agency Footer Layout",
   "description": "A clean multi column footer with brand summary, sitemap links, legal pages, contact details, and social icons, perfect for agencies to provide clarity, trust, and easy navigation.",
   "dependencies": [],
@@ -27,5 +26,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/footer-01/footer.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-08",
-  "type": "registry:component",
   "title": "Input-08 - Input with add-ons",
   "description": "Input component",
   "dependencies": [],
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input/input-08.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

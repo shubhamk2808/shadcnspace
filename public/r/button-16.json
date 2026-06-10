@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "button-16",
-  "type": "registry:component",
   "title": "Button-16 - Ripple Spotlight",
   "description": "Mouse-tracking ripple spotlight effect button",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/button/button-16.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

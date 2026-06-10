@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "combobox-02",
-  "type": "registry:component",
   "title": "Combobox-02 - With Custom Check Icon",
   "description": "Combobox component",
   "dependencies": [
@@ -19,5 +18,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/combobox/combobox-02.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

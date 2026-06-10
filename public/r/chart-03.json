@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "chart-03",
-  "type": "registry:block",
   "title": "Chart 03 - Yearly Sales Comparison",
   "description": "A smooth line chart comparing this year versus last year sales with summary stats, ideal for dashboards to visualize performance trends and identify seasonal growth patterns quickly.",
   "dependencies": [
@@ -26,5 +25,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/chart-03/chart.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

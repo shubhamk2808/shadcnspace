@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "statistics-01",
-  "type": "registry:block",
   "title": "Statistics 01 - KPI Summary Cards",
   "description": "A compact statistics section with KPI cards highlighting earnings, expenses, weekly sales, and orders, ideal for admin dashboards to surface key business metrics at a glance.",
   "dependencies": [
@@ -26,5 +25,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/statistics-01/statistics.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }
