@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "dialog-01",
-  "type": "registry:component",
   "title": "Dialog 01 - Slide from Top",
   "description": "Dialog that slides in from the top — ideal for notifications and alerts.",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/dialog/dialog-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "blog-01",
-  "type": "registry:block",
   "title": "Blog 01 - Latest Blog & News Grid",
   "description": "A modern blog section with featured posts, large thumbnails, publish dates, and headlines, ideal for sharing agency updates, design insights, and thought leadership to keep visitors engaged.",
   "dependencies": [
@@ -24,5 +23,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/blog-01/blog.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

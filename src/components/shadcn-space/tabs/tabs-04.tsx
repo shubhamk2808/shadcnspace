@@ -68,7 +68,7 @@ const tabs: TabsWithCountProps["tabs"] = [
 const TabsWithIconDemo = () => {
   return (
     <div className="w-full max-w-md">
-      <Tabs defaultValue="explore" className="gap-4">
+      <Tabs defaultValue={tabs[0].value} className="flex flex-col gap-4">
         <TabsList>
           {tabs.map(({ name, value, count }) => (
             <TabsTrigger

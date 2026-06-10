@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "pricing-01",
-  "type": "registry:block",
   "title": "Pricing 01 - Startup Pricing Plans",
   "description": "A clean two tier pricing section with feature comparison, highlighted plans, and strong CTAs, suited for agencies, Startups & SaaS to convert visitors by clearly presenting value and monthly subscription options.",
   "dependencies": [
@@ -27,5 +26,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/pricing-01/pricing.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

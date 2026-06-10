@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "shine-border-03",
-  "type": "registry:component",
   "title": "Shine Border-03 - Feature Card",
   "description": "An interactive mouse-tracking spotlight shine border that reveals a gradient glow on hover, wrapping a feature highlight card.",
   "dependencies": [
@@ -19,5 +18,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/shine-border/shine-border-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

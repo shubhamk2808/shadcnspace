@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "cta-02",
-  "type": "registry:block",
   "title": "CTA 02 - Video Background CTA",
   "description": "A high impact call-to-action section with autoplay background video, bold overlay headline, primary button, and rotating ticker text, perfect for luxury brands or real estate to capture attention instantly.",
   "dependencies": [
@@ -29,5 +28,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/animations/marquee.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

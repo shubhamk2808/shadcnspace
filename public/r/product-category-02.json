@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "product-category-02",
-  "type": "registry:block",
   "title": "Product Category 02 - Image Based",
   "description": "A product category section built with image-driven cards and filters, enabling faster discovery through visuals and improving navigation across different product groups.",
   "dependencies": [
@@ -24,5 +23,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/product-category-02/product-category.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

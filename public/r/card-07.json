@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "card-07",
-  "type": "registry:component",
   "title": "Card-07 - Audio Frequency Visualizer",
   "description": "Card component",
   "dependencies": [],
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/card/card-07.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

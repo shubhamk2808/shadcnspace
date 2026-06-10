@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "hero-02",
-  "type": "registry:block",
   "title": "Hero 02 - Real Estate Hero Section",
   "description": "Luxury real estate hero section crafted for property listings, featuring immersive imagery, location highlight, key amenities, pricing details, and prominent Schedule a tour CTA for faster inquiries.",
   "dependencies": [
@@ -50,5 +49,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/hero-02/index.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "sidebar-01",
-  "type": "registry:block",
   "title": "Sidebar 01 - Admin Dashboard Sidebar",
   "description": "A collapsible sidebar navigation with grouped menus, icons, and upgrade CTA, perfect for admin dashboards to organize pages, widgets, and apps while keeping workflows fast and intuitive.",
   "dependencies": [
@@ -33,5 +32,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/sidebar-01/nav-main.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

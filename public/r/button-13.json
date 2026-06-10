@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "button-13",
-  "type": "registry:component",
   "title": "Button-13 - Size xs",
   "description": "Size xs button component",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/button/button-13.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

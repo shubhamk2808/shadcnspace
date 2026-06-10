@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "shine-border-04",
-  "type": "registry:component",
   "title": "Shine Border-04 - Stats Card",
   "description": "A rotating meteor beam shine border with a conic gradient animation wrapping a live business stats dashboard card.",
   "dependencies": [
@@ -19,5 +18,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/shine-border/shine-border-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

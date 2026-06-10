@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "accordion-01",
-  "type": "registry:component",
   "title": "Accordion-01 - Default",
   "description": "Default accordion component",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/accordion/accordion-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

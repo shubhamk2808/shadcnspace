@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-03",
-  "type": "registry:component",
   "title": "Input-03 - Input with currency",
   "description": "Input component",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input/input-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

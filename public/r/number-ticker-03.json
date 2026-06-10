@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "number-ticker-03",
-  "type": "registry:component",
   "title": "Number Ticker-03 - Countdown Counter",
   "description": "An animated time and chronometer counter formatted as HH:MM:SS. Perfect for session timers, countdowns, workout durations, or any time-tracking feature.",
   "dependencies": [
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/number-ticker/number-ticker-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

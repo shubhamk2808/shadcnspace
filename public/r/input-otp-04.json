@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-otp-04",
-  "type": "registry:component",
   "title": "Input OTP-04 - Disabled",
   "description": "Input OTP component in disabled state",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input-otp/input-otp-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

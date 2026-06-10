@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "popover-03",
-  "type": "registry:component",
   "title": "Popover 03 - Notifications",
   "description": "Notification list popover with unread badge, type icons, All/Unread tabs, and functional mark-all-read.",
   "dependencies": [
@@ -22,5 +21,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/popover/popover-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "accordion-07",
-  "type": "registry:component",
   "title": "Accordion-07 - Motion Services",
   "description": "Animated accordion with a number bubble, sliding title shift, and an expanding bottom line on hover and active states — built with motion/react for fluid spring transitions.",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/accordion/accordion-07.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

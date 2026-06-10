@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "select-06",
-  "type": "registry:component",
   "title": "Select-06 - Select with multiple options",
   "description": "Select component",
   "dependencies": [],
@@ -22,5 +21,6 @@
       "type": "registry:component",
       "target": "components/ui/multi-select.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

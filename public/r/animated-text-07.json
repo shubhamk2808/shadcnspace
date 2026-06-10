@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "animated-text-07",
-  "type": "registry:component",
   "title": "Animated Text-07 - Morph Text",
   "description": "Animated Text Morph component",
   "dependencies": [
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/animated-text/animated-text-07.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

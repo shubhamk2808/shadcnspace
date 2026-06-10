@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "marquee-02",
-  "type": "registry:component",
   "title": "Marquee-02 - Brands",
   "description": "Brands marquee component",
   "dependencies": [
@@ -23,5 +22,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/animations/marquee.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

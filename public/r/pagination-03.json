@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "pagination-03",
-  "type": "registry:component",
   "title": "Pagination 03 - Interactive Jump",
   "description": "A compact pagination with an interactive 'Go to Page' jump feature and progress bar.",
   "dependencies": [
@@ -20,5 +19,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/pagination/pagination-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

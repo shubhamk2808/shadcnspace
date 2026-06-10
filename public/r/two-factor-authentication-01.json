@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "two-factor-authentication-01",
-  "type": "registry:block",
   "title": "Two Factor Authentication 01 - Two-Factor Authentication Page",
   "description": "A secure two-factor authentication screen with one-time code inputs and resend option, adding an extra protection layer to your SaaS login and user accounts.",
   "dependencies": [
@@ -26,5 +25,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/two-factor-authentication-01/two-factor-auth.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

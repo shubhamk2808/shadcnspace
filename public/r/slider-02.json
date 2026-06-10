@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "slider-02",
-  "type": "registry:component",
   "title": "Slider 02 - Emoji Rating",
   "description": "Emoji rating slider with hover preview ghost bar and reactive emoji/label display.",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/slider/slider-02.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

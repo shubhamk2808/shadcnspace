@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "logo-cloud-01",
-  "type": "registry:block",
   "title": "Logo Cloud 01",
   "description": "A simple logo cloud built with Shadcn styling, using a subtle background, underlined heading, and a flexible grid of brand images that adapts smoothly across screen sizes.",
   "dependencies": [
@@ -27,5 +26,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/animations/marquee.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

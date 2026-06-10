@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-18",
-  "type": "registry:component",
   "title": "Input-18 - Disabled",
   "description": "Input component",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input/input-18.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-otp-07",
-  "type": "registry:component",
   "title": "Input OTP-07 - Four Digits",
   "description": "Input OTP component with pattern to allow only 4 digits",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input-otp/input-otp-07.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

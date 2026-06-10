@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "select-04",
-  "type": "registry:component",
   "title": "Select-04 - Select with timezone",
   "description": "Select component",
   "dependencies": [],
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/select/select-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

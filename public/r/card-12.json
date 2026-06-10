@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "card-12",
-  "type": "registry:component",
   "title": "Card-12 - Weekly Card",
   "description": "Card component",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/card/card-12.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

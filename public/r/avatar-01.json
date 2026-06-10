@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "avatar-01",
-  "type": "registry:component",
   "title": "Avatar-01 - Default",
   "description": "Default avatar component",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/avatar/avatar-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

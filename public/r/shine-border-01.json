@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "shine-border-01",
-  "type": "registry:component",
   "title": "Shine Border-01 - Basic",
   "description": "Shine Border component",
   "dependencies": [
@@ -20,5 +19,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/shine-border/shine-border-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

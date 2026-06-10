@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "login-01",
-  "type": "registry:block",
   "title": "Login 01 - Developer-Friendly Login Page",
   "description": "A clean, secure login page with Google and GitHub authentication, remember-me support, and password recovery, built for modern SaaS products using shadcn UI.",
   "dependencies": [
@@ -27,5 +26,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/login-01/login.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

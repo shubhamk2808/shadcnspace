@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "newsletter-01",
-  "type": "registry:block",
   "title": "Newsletter 01 - Newsletter Subscription CTA",
   "description": "A minimal newsletter signup section with bold headline, social-proof subtext, and inline email form, ideal for capturing leads and growing your audience with a frictionless experience.",
   "dependencies": [
@@ -23,5 +22,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/newsletter-01/newsletter.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

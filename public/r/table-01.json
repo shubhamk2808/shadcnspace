@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "table-01",
-  "type": "registry:block",
   "title": "Table 01 - Project Management Table",
   "description": "A sortable projects table with manager, team avatars, progress indicators, search, and pagination, ideal for admin dashboards to track project status and streamline team workflows efficiently.",
   "dependencies": [
@@ -28,5 +27,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/table-01/table.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

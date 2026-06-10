@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "spinner-03",
-  "type": "registry:component",
   "title": "Spinner 03 - Pinwheel",
   "description": "6-blade pinwheel spinner with opacity gradient and continuous rotation.",
   "dependencies": [],
@@ -13,5 +12,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/spinner/spinner-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "animated-text-05",
-  "type": "registry:component",
   "title": "Animated Text-05 - Shimmer Text",
   "description": "Animated Shimmer Text component",
   "dependencies": [],
@@ -13,5 +12,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/animated-text/animated-text-05.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

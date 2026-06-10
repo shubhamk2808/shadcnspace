@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "dialog-block-01",
-  "type": "registry:block",
   "title": "Dialog 01 - Newsletter Subscription Dialog",
   "description": "A modern modal popup for capturing newsletter signups with a friendly hero image, email field, opt-out checkbox, and clear call-to-action to boost conversions.",
   "dependencies": [
@@ -27,5 +26,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/dialog-block-01/dialog.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

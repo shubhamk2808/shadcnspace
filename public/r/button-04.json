@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "button-04",
-  "type": "registry:component",
   "title": "Button-04 - Heartbeat Effect",
   "description": "Heartbeat Effect button component",
   "dependencies": [],
@@ -21,5 +20,6 @@
       "type": "registry:style",
       "target": "components/shadcn-space/button/button-04.css"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

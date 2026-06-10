@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "feature-02",
-  "type": "registry:block",
   "title": "Feature 02 - Three Columns Feature with Icons",
   "description": "A clean three card feature grid with icons and concise copy, built for product or SaaS pages to communicate core benefits clearly while maintaining a developer friendly, scalable layout.",
   "dependencies": [
@@ -32,5 +31,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/feature-02/feature.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

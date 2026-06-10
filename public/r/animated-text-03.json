@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "animated-text-03",
-  "type": "registry:component",
   "title": "Animated Text-03 - Typing",
   "description": "Animated Typing component",
   "dependencies": [],
@@ -13,5 +12,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/animated-text/animated-text-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

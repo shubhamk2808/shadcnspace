@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "feature-01",
-  "type": "registry:block",
   "title": "Feature 01 - Feature with Testimonials",
   "description": "A trust focused feature section combining a highlighted customer testimonial with supporting benefit cards, perfect for product or SaaS pages to showcase social proof and reinforce key advantages.",
   "dependencies": [
@@ -30,5 +29,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/feature-01/feature.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

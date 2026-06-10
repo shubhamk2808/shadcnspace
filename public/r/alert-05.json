@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "alert-05",
-  "type": "registry:component",
   "title": "Alert-05 - Dark Alert",
   "description": "Alert component",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/alert/alert-05.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

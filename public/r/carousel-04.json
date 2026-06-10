@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "carousel-04",
-  "type": "registry:component",
   "title": "Carousel-04 - Cards",
   "description": "Carousel component",
   "dependencies": [],
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/carousel/carousel-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

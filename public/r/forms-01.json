@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "forms-01",
-  "type": "registry:block",
   "title": "Forms 01 - Edit Profile Form",
   "description": "A user-friendly profile editing form with avatar upload, personal details, privacy controls, and action toggles, perfect for managing account information inside modern SaaS dashboards.",
   "dependencies": [],
@@ -26,5 +25,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/forms-01/profile-form.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

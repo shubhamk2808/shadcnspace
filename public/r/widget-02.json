@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "widget-02",
-  "type": "registry:block",
   "title": "Widget 02 - Sales by Country Widget",
   "description": "A ranked country wise sales widget with flags, revenue values, and growth indicators, ideal for dashboards to monitor geographic performance and spot emerging market trends quickly.",
   "dependencies": [
@@ -27,5 +26,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/widget-02/widget.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

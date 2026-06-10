@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "collapsible-01",
-  "type": "registry:component",
   "title": "Collapsible 01 - Release Changelog",
   "description": "An expandable release changelog with per-version collapsible panels, typed badge labels (Feature, Fix, Breaking), and smooth open/close animations.",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/collapsible/collapsible-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

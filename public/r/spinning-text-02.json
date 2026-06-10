@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "spinning-text-02",
-  "type": "registry:component",
   "title": "Spinning Text-02 - With Icon",
   "description": "Spinning Text component with animated icon",
   "dependencies": [
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/spinning-text/spinning-text-02.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

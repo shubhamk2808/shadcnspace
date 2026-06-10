@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-mask-01",
-  "type": "registry:component",
   "title": "Input Mask 01 - Card Number",
   "description": "Card number input mask with #### #### #### #### format.",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input-mask/input-mask-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

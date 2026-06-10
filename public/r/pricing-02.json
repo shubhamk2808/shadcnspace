@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "pricing-02",
-  "type": "registry:block",
   "title": "Pricing 02 - Scalable Pricing Table",
   "description": "A three tier pricing layout with a highlighted recommended plan, feature checklists, and clear CTAs, perfect for any website having pricing section to guide users toward the most valuable subscription option.",
   "dependencies": [
@@ -27,5 +26,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/pricing-02/pricing.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

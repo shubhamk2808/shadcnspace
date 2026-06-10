@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "animated-text-02",
-  "type": "registry:component",
   "title": "Animated Text-02 - Gradient Text",
   "description": "Animated Gradient Text component",
   "dependencies": [],
@@ -13,5 +12,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/animated-text/animated-text-02.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

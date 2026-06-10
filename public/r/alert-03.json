@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "alert-03",
-  "type": "registry:component",
   "title": "Alert-03 - Social Alert",
   "description": "Alert component",
   "dependencies": [
@@ -24,5 +23,6 @@
       "type": "registry:component",
       "target": "components/ui/confetti.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "hero-03",
-  "type": "registry:block",
   "title": "Hero 03 - Digital Agency Hero Section",
   "description": "High-impact digital agency hero section with cinematic background video, bold typography, brand driven headline, and clear CTA, perfect for creative studios and performance-focused marketing websites.",
   "dependencies": [
@@ -42,5 +41,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/hero-03/index.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "select-05",
-  "type": "registry:component",
   "title": "Select-05 - Select with overlapping label",
   "description": "Select component",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/select/select-05.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

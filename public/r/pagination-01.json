@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "pagination-01",
-  "type": "registry:component",
   "title": "Pagination 01 - Floating Pill",
   "description": "A floating pill-style pagination with smooth morphing animations.",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/pagination/pagination-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

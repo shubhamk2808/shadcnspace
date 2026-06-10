@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "gallery-01",
-  "type": "registry:block",
   "title": "Gallery 01 - Image Gallery Section",
   "description": "Explore a curated collection of breathtaking destinations and unforgettable experiences from around the world.",
   "dependencies": [],
@@ -21,5 +20,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/gallery-01/gallery.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

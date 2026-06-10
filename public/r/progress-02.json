@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "progress-02",
-  "type": "registry:component",
   "title": "Progress 02 - Onboarding Stepper",
   "description": "A clean onboarding progress tracker with step navigation and percentage completion.",
   "dependencies": [],
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/progress/progress-02.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "popover-02",
-  "type": "registry:component",
   "title": "Popover 02 - User Profile Card",
   "description": "Profile card popover triggered by an avatar - shows user stats and follow/message actions.",
   "dependencies": [],
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/popover/popover-02.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

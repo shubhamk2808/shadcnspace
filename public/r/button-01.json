@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "button-01",
-  "type": "registry:component",
   "title": "Button-01 - With Icon",
   "description": "With Icon button component",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/button/button-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

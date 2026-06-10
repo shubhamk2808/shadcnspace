@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "popover-04",
-  "type": "registry:component",
   "title": "Popover 04 - Volume Control",
   "description": "Popover that slides in from the top - ideal for notifications and alerts.",
   "dependencies": [
@@ -21,5 +20,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/popover/popover-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "spinner-07",
-  "type": "registry:component",
   "title": "Spinner 07 - Orbital Spinner",
   "description": "A central core with three orbiting rings that spin in opposite directions with varying opacity and size.",
   "dependencies": [
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/spinner/spinner-07.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-04",
-  "type": "registry:component",
   "title": "Input-04 - Real Time Validation",
   "description": "Input component",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input/input-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

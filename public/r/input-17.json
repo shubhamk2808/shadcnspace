@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-17",
-  "type": "registry:component",
   "title": "Input-17 - Input with label",
   "description": "Input component",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input/input-17.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "badge-04",
-  "type": "registry:component",
   "title": "Badge-04 - With Icon",
   "description": "Badge component",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/badge/badge-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

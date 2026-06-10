@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "animated-text-01",
-  "type": "registry:component",
   "title": "Animated Text-01 - Shiny Text",
   "description": "Animated Text component",
   "dependencies": [],
@@ -19,5 +18,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/animated-text/animated-text-01.css"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "popover-01",
-  "type": "registry:component",
   "title": "Popover 01 - About Shadcn Space",
   "description": "Popover that slides in from the top - ideal for notifications and alerts.",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/popover/popover-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

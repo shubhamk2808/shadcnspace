@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "statistics-02",
-  "type": "registry:block",
   "title": "Statistics 02 - Business Metrics Bar",
   "description": "A horizontal KPI bar displaying orders, sales, profit, and expenses with weekly change indicators, ideal for dashboards to monitor short-term performance and trends at a glance.",
   "dependencies": [
@@ -24,5 +23,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/statistics-02/statistics.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

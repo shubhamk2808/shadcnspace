@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "animated-list-03",
-  "type": "registry:component",
   "title": "Animated List 03 - Expandable Stack",
   "description": "Expandable stack of cards showing notifications with dynamic spring layouts",
   "dependencies": [
@@ -18,5 +17,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/animated-list/animated-list-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

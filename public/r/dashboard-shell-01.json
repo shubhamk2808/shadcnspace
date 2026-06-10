@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "dashboard-shell-01",
-  "type": "registry:block",
   "title": "Dashboard Shell 01",
   "description": "A modern dashboard shell with a sidebar and header, ideal for admin dashboards to organize and navigate through different sections.",
   "dependencies": [
@@ -78,5 +77,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/dashboard-shell-01/app-sidebar.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

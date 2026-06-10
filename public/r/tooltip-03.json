@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "tooltip-03",
-  "type": "registry:component",
   "title": "Tooltip-03 - Animated Tooltip",
   "description": "Animated Tooltip component",
   "dependencies": [
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/tooltip/tooltip-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

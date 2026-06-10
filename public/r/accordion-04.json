@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "accordion-04",
-  "type": "registry:component",
   "title": "Accordion-04 - Card",
   "description": "Accordion wrapped in a rounded card with left-aligned +/- icons and border dividers",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/accordion/accordion-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "contact-01",
-  "type": "registry:block",
   "title": "Contact 01 - Project Inquiry Contact Form",
   "description": "A conversion focused contact section with project inquiry form, contact details, and trust badges, ideal for agencies or freelancers to capture qualified leads and start meaningful client conversations.",
   "dependencies": [
@@ -48,5 +47,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/animations/marquee.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

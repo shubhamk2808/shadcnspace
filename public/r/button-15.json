@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "button-15",
-  "type": "registry:component",
   "title": "Button-15 - Size lg",
   "description": "Size lg button component",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/button/button-15.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

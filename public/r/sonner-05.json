@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "sonner-05",
-  "type": "registry:component",
   "title": "Sonner 05 - Custom Sync Status",
   "description": "A clean, minimal toast notification showing active repository sync status.",
   "dependencies": [
@@ -19,5 +18,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/sonner/sonner-05.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

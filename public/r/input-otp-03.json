@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-otp-03",
-  "type": "registry:component",
   "title": "Input OTP-03 - With Separator",
   "description": "Input OTP component with separator between segments",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input-otp/input-otp-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

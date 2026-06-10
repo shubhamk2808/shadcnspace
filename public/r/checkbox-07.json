@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "checkbox-07",
-  "type": "registry:component",
   "title": "Checkbox-07 - Checkbox with custom icons",
   "description": "Checkbox component",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/checkbox/checkbox-07.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

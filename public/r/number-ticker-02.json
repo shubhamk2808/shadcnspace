@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "number-ticker-02",
-  "type": "registry:component",
   "title": "Number Ticker-02 - Currency Counter",
   "description": "A specialized animated counter for currency and financial data. Ideal for showing bank balances, product prices, or real-time transaction values with smooth transitions.",
   "dependencies": [
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/number-ticker/number-ticker-02.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

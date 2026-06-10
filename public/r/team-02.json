@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "team-02",
-  "type": "registry:block",
   "title": "Team 02 - Modern Team Grid",
   "description": "A clean team grid with large profile cards, roles, and social icons, ideal for agencies or SaaS companies to introduce key members and strengthen brand authenticity.",
   "dependencies": [],
@@ -21,5 +20,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/team-02/team.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

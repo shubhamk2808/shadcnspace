@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "about-us-section-01",
-  "type": "registry:block",
   "title": "About Us 01 - Impact Metrics",
   "description": "A bold about us section combining value pillars, headline messaging, and performance counters, perfect for agencies or studios to highlight expertise, achievements, and credibility at a glance.",
   "dependencies": [
@@ -27,5 +26,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/about-us-01/about-us.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

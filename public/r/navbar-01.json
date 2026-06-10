@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "navbar-01",
-  "type": "registry:block",
   "title": "Navbar 01 - Minimal Agency Navbar",
   "description": "A clean top navigation bar with logo, page links, and standout CTA button, ideal for agency or SaaS websites to guide users and drive collaboration effortlessly.",
   "dependencies": [
@@ -25,5 +24,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/navbar-01/navbar.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

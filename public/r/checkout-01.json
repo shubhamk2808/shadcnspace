@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "checkout-01",
-  "type": "registry:block",
   "title": "Checkout 01 - Tabbed Billing Checkout",
   "description": "A clean checkout interface with tab-based payment selection, subscription pricing details, and streamlined billing inputs for smooth transaction flows.",
   "dependencies": [
@@ -28,5 +27,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/blocks/checkout-01/index.tsx"
     }
-  ]
+  ],
+  "type": "registry:block"
 }

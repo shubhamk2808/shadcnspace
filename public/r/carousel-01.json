@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "carousel-01",
-  "type": "registry:component",
   "title": "Carousel-01 - Custom Dots",
   "description": "Carousel component",
   "dependencies": [],
@@ -15,5 +14,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/carousel/carousel-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

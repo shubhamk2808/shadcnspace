@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "sonner-04",
-  "type": "registry:component",
   "title": "Sonner 04 - Custom PR Merge",
   "description": "A premium custom toast notification for Pull Request merge flows with approval avatars.",
   "dependencies": [
@@ -20,5 +19,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/sonner/sonner-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

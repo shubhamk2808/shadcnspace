@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "button-18",
-  "type": "registry:component",
   "title": "Button-18 - Promo Code Copy",
   "description": "Animated promo code copy button with blur transition and progress fill",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/button/button-18.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

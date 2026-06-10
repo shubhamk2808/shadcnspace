@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "sonner-01",
-  "type": "registry:component",
   "title": "Sonner 01 - Upload File",
   "description": "A clean, minimal toast notification for file upload progress and status updates.",
   "dependencies": [],
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/sonner/sonner-01.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

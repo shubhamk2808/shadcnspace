@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "combobox-04",
-  "type": "registry:component",
   "title": "Combobox-04 - Timezone",
   "description": "Combobox component",
   "dependencies": [
@@ -19,5 +18,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/combobox/combobox-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

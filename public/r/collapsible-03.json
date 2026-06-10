@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "collapsible-03",
-  "type": "registry:component",
   "title": "Collapsible 03 - API Keys Manager",
   "description": "A collapsible API keys panel with copy-to-clipboard, delete actions, and a dropdown context menu per key.",
   "dependencies": [
@@ -21,5 +20,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/collapsible/collapsible-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

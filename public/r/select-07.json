@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "select-07",
-  "type": "registry:component",
   "title": "Select-07 - Select with avatars",
   "description": "Select component",
   "dependencies": [],
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/select/select-07.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

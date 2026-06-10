@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "input-15",
-  "type": "registry:component",
   "title": "Input-15 - Required Input",
   "description": "Input component",
   "dependencies": [],
@@ -16,5 +15,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/input/input-15.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

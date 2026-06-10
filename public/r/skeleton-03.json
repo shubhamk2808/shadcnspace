@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "skeleton-03",
-  "type": "registry:component",
   "title": "Skeleton 03 - List with Icons",
   "description": "Animated list skeleton with a title bar, icon+text rows, and badge placeholders — staggered fade-up on scroll into view.",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/skeleton/skeleton-03.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }

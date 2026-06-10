@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "slider-04",
-  "type": "registry:component",
   "title": "Slider 04 - Modern Volume",
   "description": "A sleek volume slider featuring a bold track design, custom vertical thumb, and smooth percentage transitions with NumberFlow.",
   "dependencies": [
@@ -17,5 +16,6 @@
       "type": "registry:component",
       "target": "components/shadcn-space/slider/slider-04.tsx"
     }
-  ]
+  ],
+  "type": "registry:component"
 }
